@@ -1,0 +1,30 @@
+[
+    {
+        "statement": "Dans la rue des rosiers vivent depuis 1945 les juifs ashkénazes qui sont revenus après la guerre ?",
+        "propositions": [
+            "Oui, le quartier du marais était juif depuis le moyen-âge, ainsi les rescapés sont rentrés chez eux dans ce quartier après la guerre",
+            "Non, les juifs ont été exterminés par les allemands et leurs collaborateurs"
+        ],
+        "solution": {
+            "item": 0,
+            "message": "plus de 13000 personnes ont été arrêtées 16 juillet 1942 par la police de Paris"
+        },
+        "error": "",
+        "nazi": 1,
+        "djihadiste": 0
+    },
+    {
+        "statement": "alors alors alors alors alors alors ?",
+        "propositions": [
+            "Ou",
+            "Non"
+        ],
+        "solution": {
+            "item": 0,
+            "message": "plus de 13000 personnes ont été arrêtées 16 juillet 1942 par la police de Paris"
+        },
+        "error": "",
+        "nazi": 1,
+        "djihadiste": 0
+    }
+]
