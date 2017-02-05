@@ -14,17 +14,33 @@
         "djihadiste": 0
     },
     {
-        "statement": "alors alors alors alors alors alors ?",
+        "statement": "Est-il légal pour un Cisjordanien de creuser un puits sur ses terres ?",
         "propositions": [
-            "Ou",
-            "Non"
+            "Non, les autorités Israëliennes l'empêchent",
+            "Non, les autorités Palestiniennes l'empêchent",
+            "Oui"
         ],
         "solution": {
-            "item": 0,
-            "message": "plus de 13000 personnes ont été arrêtées 16 juillet 1942 par la police de Paris"
+            "item": 2,
+            "message": "Aucun contrôle n'est fait en Cisjordanie par l'état d'Israël en dehors des 2 autoroutes principales, et en dehors du cadre d'opérations spéciales"
         },
         "error": "",
-        "nazi": 1,
-        "djihadiste": 0
+        "nazi": 0,
+        "djihadiste": 1
+    },
+    {
+        "statement": "L'état d'Israël se fonde sur la religion juive ?",
+        "propositions": [
+            "Oui, l'état et le rabbinat de Jerusalem administrent ensemble l'état",
+            "Oui, l'état et le rabbinat sont séparés mais des lois du pays sont adaptées de la loi juive",
+            "Non, Israël est totalement laïque et détaché des traditions juives"
+        ],
+        "solution": {
+            "item": 2,
+            "message": ""
+        },
+        "error": "",
+        "nazi": 0,
+        "djihadiste": 1
     }
 ]
