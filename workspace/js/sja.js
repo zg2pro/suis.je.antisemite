@@ -19,10 +19,11 @@ $(document).ready(function () {
         // Instead of generating a new element, bind to the existing skeleton of
         // the App already present in the HTML.
         el: $("#sjaApp"),
+        cur: 0,
         // Delegated events for creating new items, and clearing completed ones.
         events: {
             "click option.reply": "replyQuestion",
-            "click #next": "nextQuestion"
+            "click button.next": "nextQuestion"
         },
         // At initialization we bind to the relevant events on the `Todos`
         // collection, when items are added or changed. Kick things off by
@@ -39,12 +40,18 @@ $(document).ready(function () {
 //            this.footer = this.$('footer');
 //            this.main = $('#main');
 
-            AllQuestions.fetch({reset:true});
+            AllQuestions.fetch({reset: true});
 
         },
         render: function () {
-            var firstElement = AllQuestions.at(0);
-            this.$el.find("div.question").html(firstElement.get("statement"));
+            var element = AllQuestions.at(this.cur);
+            this.$el.find("div.question").html(element.get("statement"));
+            var propositions = element.get("propositions");
+            //TODO: do it with template func
+            propositions = propositions.map(function (prop) {
+                return "<li>" + prop + "</li>";
+            });
+            this.$el.find("div.propositions").html("<ul>" + propositions.join(" ") + "</ul>");
         },
         // If you hit return in the main input field, create new **Todo** model,
         // persisting it to *localStorage*.
@@ -59,8 +66,8 @@ $(document).ready(function () {
         },
         // Clear all done todo items, destroying their models.
         nextQuestion: function () {
-//            _.invoke(Todos.done(), 'destroy');
-//            return false;
+            this.cur++;
+            this.render();
         }
 
     });
