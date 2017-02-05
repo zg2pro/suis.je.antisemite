@@ -48,16 +48,8 @@ $(document).ready(function () {
             var element = AllQuestions.at(this.cur);
             this.applyTemplate(element);
         },
-        // If you hit return in the main input field, create new **Todo** model,
-        // persisting it to *localStorage*.
         replyQuestion: function (e) {
-//            if (e.keyCode != 13)
-//                return;
-//            if (!this.input.val())
-//                return;
-//
-//            Todos.create({title: this.input.val()});
-//            this.input.val('');
+            //TODO
         },
         // Clear all done todo items, destroying their models.
         nextQuestion: function () {
