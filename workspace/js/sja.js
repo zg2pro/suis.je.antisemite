@@ -5,7 +5,7 @@ $(document).ready(function () {
     });
     var Questions = Backbone.Collection.extend({
         model: Question,
-        url: "data/questions.json"
+        url: "data/questions.json?random=" + new Date().getMilliseconds()
     });
     var AllQuestions = new Questions().bind('reset', function () {
         AllQuestions.reset(AllQuestions.shuffle(), {silent: true});
@@ -20,7 +20,7 @@ $(document).ready(function () {
         cur: 0,
         // Delegated events for creating new items, and clearing completed ones.
         events: {
-            "click option.reply": "replyQuestion",
+            "click a.reply": "replyQuestion",
             "click button.next": "nextQuestion"
         },
         // At initialization we bind to the relevant events on the `Todos`
@@ -49,7 +49,15 @@ $(document).ready(function () {
             this.applyTemplate(element);
         },
         replyQuestion: function (e) {
-            //TODO
+            var curQuestion = AllQuestions.at(this.cur);
+            var repIndex = $(e.target).parents("div.panel").index();
+            var correctInd = curQuestion.get("solution").item;
+            if (correctInd === repIndex) {
+                $("button.next").removeClass("hide");
+                $(e.target).parents("div.panel-heading").addClass("good");
+            } else {
+                this.$el.html("Oui, vous êtes un antisémite.");
+            }
         },
         // Clear all done todo items, destroying their models.
         nextQuestion: function () {

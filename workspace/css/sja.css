@@ -1,3 +1,8 @@
 #sjaApp {
     text-align: center;
 }
+
+div.panel-heading.good {
+    background-color: green;
+    color:white;
+}

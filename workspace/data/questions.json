@@ -6,7 +6,7 @@
             "Non, les juifs ont été exterminés par les allemands et leurs collaborateurs"
         ],
         "solution": {
-            "item": 0,
+            "item": 1,
             "message": "plus de 13000 personnes ont été arrêtées 16 juillet 1942 par la police de Paris"
         },
         "error": "",
@@ -42,5 +42,20 @@
         "error": "",
         "nazi": 0,
         "djihadiste": 1
+    },
+    {
+        "statement": "Les écoles juives en France sont financées par l'état",
+        "propositions": [
+            "Non, en vertu du principe de laïcité",
+            "Oui, l'état finance l'enseignement de tous les enfants de la république et laisse aux parents la liberté de choisir un lieu de scolarité privé",
+            "Oui, en compensation des déportations d'enfants juifs et des autres crimes de guerres commis par l'état Français de Vichy"
+        ],
+        "solution": {
+            "item": 1,
+            "message": ""
+        },
+        "error": "",
+        "nazi": 1,
+        "djihadiste": 0
     }
 ]

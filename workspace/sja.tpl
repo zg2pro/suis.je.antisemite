@@ -1,13 +1,19 @@
-<div class="row question">
+<h1 class="question">
     <%= statement %>
-</div>
-<div class="row propositions">
-    <ul>
-        <% _.each(propositions, function(i) { %>  
-        <li><%= i %></li> 
-        <% }); %>
-    </ul>
+</h1>
+<div class="panel-group propositions" role="tablist" aria-multiselectable="true">
+    <% _.each(propositions, function(i, ind) { %>
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab">
+            <h4 class="panel-title">
+                <a class="reply" role="button" href="#" aria-expanded="true">
+                    <%= i %>
+                </a>
+            </h4>
+        </div>
+    </div>
+    <% }); %>
 </div>
 <div class="row actions">
-    <button class="btn btn-default next" type="button">Suivant</button>
+    <button class="btn btn-default next hide" type="button">Suivant</button>
 </div>
