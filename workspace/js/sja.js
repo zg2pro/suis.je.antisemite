@@ -7,9 +7,7 @@ $(document).ready(function () {
         model: Question,
         url: "data/questions.json"
     });
-    var AllQuestions = new Questions();
-
-    AllQuestions.bind('reset', function () {
+    var AllQuestions = new Questions().bind('reset', function () {
         AllQuestions.reset(AllQuestions.shuffle(), {silent: true});
         AllQuestions.reset(AllQuestions.first(20), {silent: true});
         App.render();
@@ -29,29 +27,26 @@ $(document).ready(function () {
         // collection, when items are added or changed. Kick things off by
         // loading any preexisting todos that might be saved in *localStorage*.
         initialize: function () {
-
-//            this.input = this.$("#new-todo");
-//            this.allCheckbox = this.$("#toggle-all")[0];
-//
-//            this.listenTo(Todos, 'add', this.addOne);
-//            this.listenTo(Todos, 'reset', this.addAll);
-//            this.listenTo(Todos, 'all', this.render);
-//
-//            this.footer = this.$('footer');
-//            this.main = $('#main');
-
             AllQuestions.fetch({reset: true});
-
+        },
+        applyTemplate: function (input, target) {
+            var that = this;
+            $.ajax({
+                url: 'sja.tpl',
+                type: "GET",
+                dataType: "html",
+                success: function (data) {
+                    var template = _.template(data, {});
+                    if (target === undefined) {
+                        target = that.$el;
+                    }
+                    target.html(template(input.toJSON()));
+                }
+            });
         },
         render: function () {
             var element = AllQuestions.at(this.cur);
-            this.$el.find("div.question").html(element.get("statement"));
-            var propositions = element.get("propositions");
-            //TODO: do it with template func
-            propositions = propositions.map(function (prop) {
-                return "<li>" + prop + "</li>";
-            });
-            this.$el.find("div.propositions").html("<ul>" + propositions.join(" ") + "</ul>");
+            this.applyTemplate(element);
         },
         // If you hit return in the main input field, create new **Todo** model,
         // persisting it to *localStorage*.
