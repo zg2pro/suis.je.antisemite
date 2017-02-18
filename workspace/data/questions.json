@@ -2,60 +2,71 @@
     {
         "statement": "Dans la rue des rosiers vivent depuis 1945 les juifs ashkénazes qui sont revenus après la guerre ?",
         "propositions": [
-            "Oui, le quartier du marais était juif depuis le moyen-âge, ainsi les rescapés sont rentrés chez eux dans ce quartier après la guerre",
-            "Non, les juifs ont été exterminés par les allemands et leurs collaborateurs"
+            {
+                "ct": "Oui, le quartier du marais était juif depuis le moyen-âge, ainsi les rescapés sont rentrés chez eux dans ce quartier après la guerre",
+                "nazi": 1
+            },
+            {
+                "ct": "Non, les juifs ont été exterminés par les allemands et leurs collaborateurs",
+                "solution": 1
+            }
         ],
-        "solution": {
-            "item": 1,
-            "message": "plus de 13000 personnes ont été arrêtées 16 juillet 1942 par la police de Paris"
-        },
-        "error": "",
-        "nazi": 1,
-        "djihadiste": 0
+        "message": "plus de 13000 personnes ont été arrêtées 16 juillet 1942 par la police de Paris. Les logements vides ont été récupérés par d'autres familles françaises."
     },
     {
-        "statement": "Est-il légal pour un Cisjordanien de creuser un puits sur ses terres ?",
+        "statement": "Est-il possible pour un Cisjordanien de creuser un puits sur ses terres ?",
         "propositions": [
-            "Non, les autorités Israëliennes l'empêchent",
-            "Non, les autorités Palestiniennes l'empêchent",
-            "Oui"
+            {
+                "ct": "Non, les autorités Israëliennes l'empêchent",
+                "djihadiste": 1
+            },
+            {
+                "ct": "Non, les autorités Palestiniennes l'empêchent",
+                "djihadiste": 1
+            },
+            {
+                "ct": "Oui",
+                "solution": 1
+            }
         ],
-        "solution": {
-            "item": 2,
-            "message": "Aucun contrôle n'est fait en Cisjordanie par l'état d'Israël en dehors des 2 autoroutes principales, et en dehors du cadre d'opérations spéciales"
-        },
-        "error": "",
-        "nazi": 0,
-        "djihadiste": 1
+        "message": "Aucun contrôle n'est fait en Cisjordanie par l'état d'Israël en dehors des 2 autoroutes principales, et en dehors du cadre d'opérations spéciales"
     },
     {
         "statement": "L'état d'Israël se fonde sur la religion juive ?",
         "propositions": [
-            "Oui, l'état et le rabbinat de Jerusalem administrent ensemble l'état",
-            "Oui, l'état et le rabbinat sont séparés mais des lois du pays sont adaptées de la loi juive",
-            "Non, Israël est totalement laïque et détaché des traditions juives"
+            {
+                "ct": "Oui, l'état et le rabbinat de Jerusalem administrent ensemble l'état",
+                "djihadiste": 1
+            },
+            {
+                "ct": "Oui, l'état et le rabbinat sont séparés mais des lois du pays sont adaptées de la loi juive",
+                "djihadiste": 1
+            },
+            {
+                "ct": "Non, Israël est un pays sans constitution, mais les lois permettent à tous les citoyens de jouir de droits égaux quelque soit leur religion. Faire référence à la loi juive est un usage de l'extrême droite Israëlienne seule.",
+                "solution": 1
+            },
+            {
+                "ct": "Non, Israël est totalement laïque"
+            }
         ],
-        "solution": {
-            "item": 2,
-            "message": ""
-        },
-        "error": "",
-        "nazi": 0,
-        "djihadiste": 1
+        "message": "En Israël les religieux n'ont par exemple jamais pu légaliser le marriage, les débats politiques excluent toujours ce qui relève purement des traditions."
     },
     {
         "statement": "Les écoles juives en France sont financées par l'état",
         "propositions": [
-            "Non, en vertu du principe de laïcité",
-            "Oui, l'état finance l'enseignement de tous les enfants de la république et laisse aux parents la liberté de choisir un lieu de scolarité privé",
-            "Oui, en compensation des déportations d'enfants juifs et des autres crimes de guerres commis par l'état Français de Vichy"
+            {
+                "ct": "Non, en vertu du principe de laïcité"
+            },
+            {
+                "ct": "Oui, l'état finance l'enseignement de tous les enfants de la république et laisse aux parents la liberté de choisir un lieu de scolarité privé",
+                "solution": 1
+            },
+            {
+                "ct": "Oui, en compensation des déportations d'enfants juifs et des autres crimes de guerres commis par l'état Français de Vichy",
+                "nazi": 1
+            }
         ],
-        "solution": {
-            "item": 1,
-            "message": ""
-        },
-        "error": "",
-        "nazi": 1,
-        "djihadiste": 0
+        "message": "C'est un principe d'application de la loi 1905"
     }
 ]

@@ -32,7 +32,7 @@ $(document).ready(function () {
         applyTemplate: function (input, target) {
             var that = this;
             $.ajax({
-                url: 'sja.tpl',
+                url: 'sja.tpl?random=' + new Date().getMilliseconds(),
                 type: "GET",
                 dataType: "html",
                 success: function (data) {
@@ -51,7 +51,7 @@ $(document).ready(function () {
         replyQuestion: function (e) {
             var curQuestion = AllQuestions.at(this.cur);
             var repIndex = $(e.target).parents("div.panel").index();
-            var correctInd = curQuestion.get("solution").item;
+            var correctInd = curQuestion.get("propositions").findIndex(function(i){return i.solution !== undefined;});
             if (correctInd === repIndex) {
                 $("button.next").removeClass("hide");
                 $(e.target).parents("div.panel-heading").addClass("good");

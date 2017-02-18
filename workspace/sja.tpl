@@ -7,7 +7,7 @@
         <div class="panel-heading" role="tab">
             <h4 class="panel-title">
                 <a class="reply" role="button" href="#" aria-expanded="true">
-                    <%= i %>
+                    <%= i.ct %>
                 </a>
             </h4>
         </div>
