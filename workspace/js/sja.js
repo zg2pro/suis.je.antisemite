@@ -2,7 +2,7 @@
 $(document).ready(function () {
 
     var Question = Backbone.Model.extend({
-        solutionIndex: function(){
+        solutionIndex: function () {
             return this.get("propositions").findIndex(function (i) {
                 return i.solution === 1;
             });
@@ -12,12 +12,6 @@ $(document).ready(function () {
         model: Question,
         url: "data/questions.json?random=" + new Date().getMilliseconds()
     });
-    var AllQuestions = new Questions().bind('reset', function () {
-        AllQuestions.reset(AllQuestions.shuffle(), {silent: true});
-        AllQuestions.reset(AllQuestions.first(20), {silent: true});
-        App.render();
-    });
-
     var Antisemite = Backbone.Model.extend({
         digest: function (curQuestion, repIndex) {
             var mapAntisemite = [];
@@ -26,6 +20,11 @@ $(document).ready(function () {
             mapAntisemite["djihadiste"] = curQuestion.get("propositions")[repIndex].djihadiste > 0;
             this.set(mapAntisemite);
         }
+    });
+    var AllQuestions = new Questions().bind('reset', function () {
+        AllQuestions.reset(AllQuestions.shuffle(), {silent: true});
+        AllQuestions.reset(AllQuestions.first(20), {silent: true});
+        App.render();
     });
 
     var AppView = Backbone.View.extend({
@@ -71,7 +70,6 @@ $(document).ready(function () {
             var repIndex = $(e.target).parents("div.panel").index();
             var correctInd = curQuestion.solutionIndex();
             if (correctInd === repIndex) {
-                $("button.next").removeClass("hide");
                 $(e.target).parents("div.panel-heading").addClass("good");
             } else {
                 var antisemite = new Antisemite();
@@ -79,9 +77,11 @@ $(document).ready(function () {
                 var newElement = $("<div class='antisemite'></div>");
                 $("div.row.actions").before(newElement);
                 this.applyTemplate(antisemite, newElement, "antisemite.tpl");
-                if (!(antisemite.nazi || antisemite.djihadiste)) {
-                    $("button.next").removeClass("hide");
-                }
+            }
+            if ((correctInd === repIndex 
+                    || !(antisemite.nazi || antisemite.djihadiste))
+                    && this.cur < AllQuestions.size() - 1){
+                $("button.next").removeClass("hide");
             }
         },
         // Clear all done todo items, destroying their models.
@@ -89,7 +89,6 @@ $(document).ready(function () {
             this.cur++;
             this.render();
         }
-
     });
     var App = new AppView;
 
