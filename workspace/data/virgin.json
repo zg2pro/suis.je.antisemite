@@ -1,11 +1,15 @@
 {
     "statement": "",
-    "propositions": [],
-    "solution": {
-        "item": 0,
-        "proof": ""
-    },
-    "error": "",
-    "nazi": 0,
-    "djihadiste": 0
+    "propositions": [
+        {
+            "ct": "",
+            "nazi": 0,
+            "djihadiste": 0
+        },
+        {
+            "ct": "",
+            "solution": 0
+        }
+    ],
+    "message": ""
 }

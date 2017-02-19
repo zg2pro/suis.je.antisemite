@@ -6,3 +6,8 @@ div.panel-heading.good {
     background-color: green;
     color:white;
 }
+
+div.panel.red {
+    font-weight: bolder;
+    color:red;
+}
