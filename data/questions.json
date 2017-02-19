@@ -38,7 +38,7 @@
                 "ct": "Oui, l'état et le rabbinat sont séparés mais des lois du pays sont adaptées de la loi juive",
                 "djihadiste": 1
             }, {
-                "ct": "Non, Israël est un pays sans constitution, mais les lois permettent à tous les citoyens de jouir de droits égaux quelque soit leur religion. Faire référence à la loi juive est un usage de l'extrême droite Israëlienne seule.",
+                "ct": "Non, Israël est un pays sans constitution, mais les lois permettent à tous les citoyens de jouir de droits égaux quelle que soit leur religion. Faire référence à la loi juive est un usage de l'extrême droite Israëlienne seule.",
                 "solution": 1
             }, {
                 "ct": "Non, Israël est totalement laïque"
@@ -248,5 +248,22 @@
             }
         ],
         "message": "C'est la religion la plus ancienne, mais certainement aussi celle qui évolue le plus, et qui a le plus connu de révolutions (voir ce qu'est la haskalah). Le consistoire permet à l'état de s'assurer qu'aucune dérive n'existe dans la communauté religieuse. La majorité des juifs de France et des Etats-Unis n'observent pas la Cacheroute, l'abolition de cette règle en France date du consistoire de Napoléon."
+    }, {
+        "statement": "Pendant la seconde guerre mondiale en Transjordanie",
+        "propositions": [
+            {
+                "ct": "Le mufti de Jerusalem avait conclu un pacte avec Hitler pour exterminer les juifs de Palestine. Il a été invité à visiter Auschwitz. Ainsi un contingent d'arabes Palestiniens fut envoyé sur le front russe au coté des allemands.",
+                "solution": 1
+            }, {
+                "ct": "Juifs et arabes n'ont pas pris parti dans un camp ou dans l'autre, les nazis n'ayant pas menacé la région",
+                "nazi": 1
+            }, {
+                "ct": "Juifs, arabes et britanniques se sont unis contre l'armée nazie de Rommel, remettant la guerre civile judéo-arabe de Palestine à plus tard",
+                "nazi": 1
+            }, {
+                "ct": "Liban et Syrie étant sous protectorat Français donc sous régime Vichyste, la Haganah a déclaré la guerre à la France, les arabes sont restés neutres."
+            }
+        ],
+        "message": "Un accord identique a permis à Hitler de recevoir l'aide des bosniaques musulmans et ainsi exterminer les juifs romanites en Yougoslavie. La shoah dans les balkans est la plus réussie des nazis : les juifs romanites ont été totalement exterminés. "
     }
 ]
