@@ -1,6 +1,4 @@
-
 $(document).ready(function () {
-
     var Question = Backbone.Model.extend({
         solutionIndex: function () {
             return this.get("propositions").findIndex(function (i) {
@@ -72,15 +70,18 @@ $(document).ready(function () {
             if (correctInd === repIndex) {
                 $(e.target).parents("div.panel-heading").addClass("good");
             } else {
+                $(e.target).parents("div.panel-heading").addClass("wrong");
+                var correctInd = curQuestion.solutionIndex();
+                $($("div.panel-heading")[correctInd]).addClass("good");
                 var antisemite = new Antisemite();
                 antisemite.digest(curQuestion, repIndex);
                 var newElement = $("<div class='antisemite'></div>");
                 $("div.row.actions").before(newElement);
                 this.applyTemplate(antisemite, newElement, "antisemite.tpl");
             }
-            if ((correctInd === repIndex 
+            if ((correctInd === repIndex
                     || !(antisemite.nazi || antisemite.djihadiste))
-                    && this.cur < AllQuestions.size() - 1){
+                    && this.cur < AllQuestions.size() - 1) {
                 $("button.next").removeClass("hide");
             }
         },
@@ -91,5 +92,4 @@ $(document).ready(function () {
         }
     });
     var App = new AppView;
-
 });

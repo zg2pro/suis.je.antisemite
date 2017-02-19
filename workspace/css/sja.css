@@ -6,6 +6,10 @@ div.panel-heading.good {
     background-color: green;
     color:white;
 }
+div.panel-heading.wrong {
+    background-color: red;
+    color:white;
+}
 
 div.panel.red {
     font-weight: bolder;
