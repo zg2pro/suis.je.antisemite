@@ -5,7 +5,7 @@
             {
                 "ct": "Oui, le quartier du marais était juif depuis le moyen-âge, ainsi les rescapés sont rentrés chez eux dans ce quartier après la guerre",
                 "nazi": 1
-            },{
+            }, {
                 "ct": "Non, les juifs ont été exterminés par les allemands et leurs collaborateurs",
                 "solution": 1
             }
@@ -135,7 +135,7 @@
                 "djihadiste": 1
             }
         ],
-        "message": "Kadima, l'union sioniste et le Likoud (les 3 grands partis d'Israel) sont au moins d'accord sur le fait que la bible n'a aucun intérêt dans la pacification de la zone, toutefois les modalités d'évacuation de 600.000 personnes dont 100.000 orthodoxes combatifs sont devenues un tel casse-tête pour le gouvernement que la création de l'état Palestinien à laquelle (presque) tout le monde aspire est retardée en permanence. Le contrôle des autorités palestiniennes dans les zones A et B des accords d'Oslo 2 sont laxistes, ce qui encourage la conservation de postes militaires en Cisjordanie. Enfin, il est vrai que le Likoud pactise avec l'extrême droite Israëlienne pour gouverner et durant ces périodes la colonisation accélère encore plus."
+        "message": "Kadima, l'union sioniste et le Likoud (les 3 grands partis d'Israel) sont au moins d'accord sur le fait que la bible n'a aucun intérêt dans la pacification de la zone. D'ailleurs la bible dit aussi que les juifs sont un peuple sans terre condamnés à l'errance. Toutefois les modalités d'évacuation de 600.000 personnes dont 100.000 orthodoxes combatifs sont devenues un tel casse-tête pour le gouvernement que la création de l'état Palestinien à laquelle (presque) tout le monde aspire est retardée en permanence. Le contrôle des autorités palestiniennes dans les zones A et B des accords d'Oslo 2 sont laxistes, ce qui encourage la conservation de postes militaires en Cisjordanie. Enfin, il est vrai que le Likoud pactise avec l'extrême droite Israëlienne pour gouverner et durant ces périodes la colonisation accélère encore plus."
     }, {
         "statement": "Le déicide est le crime commis par les juifs contre Jésus, l'église catholique fit de la punition des juifs une priorité",
         "propositions": [
@@ -155,6 +155,98 @@
                 "solution": 1
             }
         ],
-        "message": "Et ce n'est que Jean-Pau II en 1995 qui dit pour la première fois que les juifs ne sont pas responsables de la mort de Jésus. La persécution des juifs fait partie d'une histoire du monde qui est multiséculaire et pas seulement pour la période de la seconde guerre mondiale. Avant Hitler, il y eut Isabelle la Catholique, les romains, les pharaons, les pogroms de Russie, Banu Qurayza. Ne pas l'admettre est du révisionnisme."
+        "message": "Et ce n'est que Jean-Paul II en 1995 qui dit pour la première fois que les juifs ne sont pas responsables de la mort de Jésus. La persécution des juifs fait partie d'une histoire du monde qui est multiséculaire et pas seulement pour la période de la seconde guerre mondiale. Avant Hitler, il y eut Isabelle la Catholique, les romains, les pharaons, les pogroms de Russie, Banu Qurayza. Ne pas l'admettre est du révisionnisme."
+    }, {
+        "statement": "Dieudonné n'a pas été condamné pour",
+        "propositions": [
+            {
+                "ct": "Avoir fait un chèque de 1500€ au Djihad Islamique Palestinien, organisation reconnue terroriste par l'état Français",
+                "solution": 1
+            }, {
+                "ct": "Avoir déclaré qu'Arthur finançait l'armée Israëlienne. Et Arthur ne l'a pas immédiatement accusé de diffamation et fait condamné, C'est faux.",
+                "djihadiste": 1
+            }, {
+                "ct": "Avoir contesté des crimes contre l'humanité",
+                "nazi": 1
+            }, {
+                "ct": "Avoir déclaré que Patrick Bruel faisait partie de l'armée Israëlienne et qu'il soutenait le bombardement du Sud-Liban. Et Patrick Bruel ne l'a pas accusé et fait condamné pour diffamation. C'est faux.",
+                "djihadiste": 1
+            }, {
+                "ct": "Avoir accusé les juifs d'êtres des négriers et des trafficants d'escalves. Non il n'a pas dit cela.",
+                "djihadiste": 1,
+                "nazi": 1
+            }
+        ],
+        "message": "Si, Dieudonné a fait cela. Bien sûr ces déclarations sont celles d'un humoriste... quel humour !! Ca vous a vraiment fait rire qu'il l'ait dit ? Vous faites aussi des blagues de ce genre ?"
+    }, {
+        "statement": "Les attentats du 11 Septembre 2001",
+        "propositions": [
+            {
+                "ct": "sont justifiés pour lutter contre un monde trop consumériste, on ne fait pas d'omelette sans casser des oeufs",
+                "djihadiste": 1
+            }, {
+                "ct": "une atrocité",
+                "solution": 1
+            }
+        ],
+        "message": "Après sa mort Ben Laden reste une idôle pour de nombreux jeunes qui manquent de courants de révolte nobles et se réfugient dans le salafisme."
+    }, {
+        "statement": "La Judée",
+        "propositions": [
+            {
+                "ct": "(éthymologiquement pays des juifs) est une région d'Israël et de Palestine, et était dénommée ainsi aussi du temps des turcs",
+                "solution": 1
+            }, {
+                "ct": "ne signifie pas pays des juifs, mais nouvelle terre et il n'y avait quasiment pas de juifs vivant en Israël avant l'exode des réfugiés de la shoah",
+                "djihadiste": 1
+            }, {
+                "ct": "signifie bien pays des juifs mais il n'y avait pas de juifs vivant en Israël avant la déclaration de Balfour en 1917",
+                "djihadiste": 1
+            }
+        ],
+        "message": "Les antisionistes justifient la cause Palestinienne du fait que les juifs seraient arrivés après les arabes en Palestine. Mais au XIXe siècle l'ouest du Jourdain selon les turcs était déjà peuplé d'un quart de juifs, il existe de très anciens quartiers juifs, y compris à l'intérieur de Jerusalem-est (vieille ville). D'ailleurs, les juifs n'étaient-ils pas les premiers au Maroc ? en Algérie ? en Tunisie ? en Arabie Saoudite ?"
+    }, {
+        "statement": "D'après vous ?",
+        "propositions": [
+            {
+                "ct": "Plus d'arabes vivent dans les pays juifs",
+                "solution": 1
+            }, {
+                "ct": "Plus de juifs vivent dans les pays arabes",
+                "djihadiste": 1
+            }
+        ],
+        "message": "A peu près 30% des Israëliens sont arabes, beaucoup viennent des territoires Palestiniens y vivre pour y étudier ou travailler. Pourquoi est-il si impensable qu'un juif puisse vivre coté Palestinien ?"
+    }, {
+        "statement": "Pourquoi n'y a-t-il plus de juifs au Maroc, en Algérie, et en Tunisie ?",
+        "propositions": [
+            {
+                "ct": "Les juifs en Algérie se sont globalement engagés aux cotés de la France alors qu'ils n'avaient pas la nationalité, en 1967 ils ont été mis dehors"
+            }, {
+                "ct": "Un beau jour ils sont partis, d'un coup, personne n'a compris pourquoi",
+                "djihadiste": 1
+            }, {
+                "ct": "Après avoir parfois participé à la décolonisation, un sursaut identitaire a islamisé les consciences dans ces pays. Les relations étaient devenues très tendues et quand en 1967 Nasser déclare que son objectif est la destruction d'Israël et déclenche la guerre des 6 jours, le monde arabe se déchaine sur les juifs, ils doivent fuir vers la France, Israël ou les Etats-Unis",
+                "solution": 1
+            }
+        ],
+        "message": "Les juifs étaient plutôt engagés pour la décolonisation car ils se sentaient appartenir davantage au pays dans lequel ils vivaient qu'à la France ou à Israël, ils sont partis sous la menace comme tous les immigrés du monde."
+    }, {
+        "statement": "La religion juive est la plus arriérée des religions monothéistes",
+        "propositions": [
+            {
+                "ct": "Oui, c'est la plus ancienne et les rites n'ont pas changé depuis Moïse",
+                "nazi": 1
+            }, {
+                "ct": "C'est une des plus anciennes et les rites n'ont pas changé depuis Hérode",
+                "nazi": 1
+            }, {
+                "ct": "C'est la plus ancienne religion, les rites ashkénazes ou séfarades datent du Moyen-âge, l'état ne s'en mêle pas : laïcité oblige"
+            }, {
+                "ct": "Judaïsme et protestantisme sont les deux seules religions en France régies par un consistoire républicain",
+                "solution": 1
+            }
+        ],
+        "message": "C'est la religion la plus ancienne, mais certainement aussi celle qui évolue le plus, et qui a le plus connu de révolutions (voir ce qu'est la haskalah). Le consistoire permet à l'état de s'assurer qu'aucune dérive n'existe dans la communauté religieuse. La majorité des juifs de France et des Etats-Unis n'observent pas la Cacheroute, l'abolition de cette règle en France date du consistoire de Napoléon."
     }
 ]
