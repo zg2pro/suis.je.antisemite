@@ -11,8 +11,7 @@
             }
         ],
         "message": "plus de 13000 personnes ont été arrêtées le 16 juillet 1942 par la police de Paris. Les logements vides ont été récupérés par d'autres familles françaises."
-    },
-    {
+    }, {
         "statement": "Est-il possible pour un Cisjordanien de creuser un puits sur ses terres ?",
         "propositions": [
             {
@@ -27,8 +26,7 @@
             }
         ],
         "message": "Aucun contrôle n'est fait en Cisjordanie par l'état d'Israël en dehors des 2 autoroutes principales et des installations juives (accords Oslo 2), et en dehors du cadre d'opérations spéciales"
-    },
-    {
+    }, {
         "statement": "L'état d'Israël se fonde sur la religion juive ?",
         "propositions": [
             {
@@ -45,8 +43,7 @@
             }
         ],
         "message": "En Israël les religieux n'ont par exemple jamais pu légaliser le marriage, les débats politiques excluent toujours ce qui relève purement des traditions."
-    },
-    {
+    }, {
         "statement": "Les écoles juives en France sont financées par l'état",
         "propositions": [
             {
@@ -60,8 +57,7 @@
             }
         ],
         "message": "C'est un principe d'application de la loi 1905"
-    },
-    {
+    }, {
         "statement": "Combien de grandes banques juives existe-t-il dans le monde ?",
         "propositions": [
             {
@@ -79,8 +75,7 @@
             }
         ],
         "message": "Qu'est-ce qu'une banque juive ? Une banque dont les directeurs seraient juifs ? Ainsi toute assemblée dont la majorité d'entre serait juifs serait une assemblée juive ? Ainsi tout juif ne se définit que par sa judéité ?"
-    },
-    {
+    }, {
         "statement": "Comment est-on juif ?",
         "propositions": [
             {
@@ -173,7 +168,6 @@
                 "djihadiste": 1
             }, {
                 "ct": "Avoir accusé les juifs d'êtres des négriers et des trafficants d'escalves. Non il n'a pas dit cela.",
-                "djihadiste": 1,
                 "nazi": 1
             }
         ],

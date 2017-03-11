@@ -4,13 +4,14 @@
 
 div.panel-heading.good {
     background-color: green;
+    background-image: none;
     color:white;
 }
 div.panel-heading.wrong {
     background-color: red;
+    background-image: none;
     color:white;
 }
-
 div.panel.red {
     font-weight: bolder;
     color:red;

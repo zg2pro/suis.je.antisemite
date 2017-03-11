@@ -1,0 +1,30 @@
+{
+  "name": "suis.je.antisemite",
+  "version": "1.0.0",
+  "description": "to test you and your disturbing opinions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zg2pro/suis.je.antisemite.git"
+  },
+  "author": "zg2pro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zg2pro/suis.je.antisemite/issues"
+  },
+  "homepage": "https://github.com/zg2pro/suis.je.antisemite#readme",
+  "devDependencies": {
+    "backbone": "^1.3.3",
+    "bootstrap": "^3.3.7",
+    "grunt": "^1.0.1",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-ftp-deploy": "^0.1.10",
+    "jquery": "^3.1.1",
+    "underscore": "^1.8.3"
+  }
+}
