@@ -1,3 +1,5 @@
+consult it online at http://suis.je.antisemite.free.fr
+
 to kickstart a jquery/bootstrap project
  - install npm on operating system
  - npm install -g grunt-cli
