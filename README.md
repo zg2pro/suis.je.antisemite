@@ -22,3 +22,10 @@ to kickstart a jquery/bootstrap project
 
 
  - if you clone this projet, just create a .ftppass file and run "npm install ; grunt"
+
+
+If you want to make you html/css/js app a mobile app run by Node.js:
+ - npm install cordova -g
+ - npm install jxc -g (git must be in your path)
+ - cordova create suis.je.antisemite and copy the folders (this being the name of the server/app you want to run on android)
+#http://blog.sergemazille.com/serveur-web-node-js-android/
