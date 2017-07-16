@@ -1,3 +1,6 @@
 /dist/
 /node_modules/
 .ftppass
+/nbproject/private/config.properties
+/nbproject/private/private.properties
+/nbproject/private/private.xml

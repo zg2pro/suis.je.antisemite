@@ -259,5 +259,34 @@
             }
         ],
         "message": "Un accord identique a permis à Hitler de recevoir l'aide des bosniaques musulmans et ainsi exterminer les juifs romanites en Yougoslavie. La shoah dans les balkans est la plus réussie des nazis : les juifs romanites ont été totalement exterminés. "
+    }, {
+        "statement": "L'état Français a reconnu que le régime de Vichy avait participé aux crimes antisémites de la guerre",
+        "propositions": [
+            {
+                "ct": "Pendant la guerre, la France libre exprimait son souhait de mettre un terme à ces crimes",
+                "nazi": 1
+            }, {
+                "ct": "A la fin de la guerre, les procès des collaborateurs ont mis en lumière les politiques antisémites de Vichy",
+                "nazi": 1
+            }, {
+                "ct": "En 1994, lorsque les journaux Français révèlent la longue amitié de René Bousquet commanditaire de la rafle du Vel d'Hiv et de François Mitterrand, celui-ci se justifie et reconnait les crimes de Bousquet qui venait de décéder en 1993",
+                "nazi": 1
+            }, {
+                "ct": "Jacques Chirac est le premier à reconnaitre en 1997 que la France avait commis l'irréparable pendant la guerre.",
+				"solution": 1
+            }
+        ],
+        "message": "Ce fut à l'occasion de la commémoration de la rafle du Vel d'Hiv le 17 juillet 1997, auparavant la France ne parlait de Vichy que comme collaborateur dans les combats contre les alliés. Pétain, Laval a été condamnés pour intelligence avec l'ennemi. Il fallut attendre le procès Touvier en 1994 pour que l'on parle de crimes antisémites pour la première fois dans un tribunal Français."
+    }, {
+        "statement": "Peut-on parler d'humour juif ?",
+        "propositions": [
+            {
+                "ct": "Non c'est raciste d'associer les juifs à ce stéréotype sur l'humour"
+            }, {
+                "ct": "Oui, une culture juive existe bien sûr avec sa cuisine, ses langues, son histoire, et aussi son humour bien sûr réputé, incarné par Groucho Marx,  Woody Allen, Jerry Seinfeld, aussi par Popeck, d'Elie Kakou ou d'Elie Semoun",
+                "solution": 1
+            }
+        ],
+        "message": "Le juif est indiscernable dans la société tant qu'il n'y a pas de caractéristique absolue qui permette de le démasquer, comme la taille du nez ou du front. Les caractériques culturelles elles ne sont pas absolues, on ne s'y associé pas entièrement, une culture juive existe et aussi une culture Israëlienne. "
     }
 ]
