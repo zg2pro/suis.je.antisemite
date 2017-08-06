@@ -273,7 +273,7 @@
                 "nazi": 1
             }, {
                 "ct": "Jacques Chirac est le premier à reconnaitre en 1997 que la France avait commis l'irréparable pendant la guerre.",
-				"solution": 1
+                "solution": 1
             }
         ],
         "message": "Ce fut à l'occasion de la commémoration de la rafle du Vel d'Hiv le 17 juillet 1997, auparavant la France ne parlait de Vichy que comme collaborateur dans les combats contre les alliés. Pétain, Laval a été condamnés pour intelligence avec l'ennemi. Il fallut attendre le procès Touvier en 1994 pour que l'on parle de crimes antisémites pour la première fois dans un tribunal Français."
@@ -288,5 +288,33 @@
             }
         ],
         "message": "Le juif est indiscernable dans la société tant qu'il n'y a pas de caractéristique absolue qui permette de le démasquer, comme la taille du nez ou du front. Les caractériques culturelles elles ne sont pas absolues, on ne s'y associé pas entièrement, une culture juive existe et aussi une culture Israëlienne. "
+    }, {
+        "statement": "Alfred Dreyfus était ?",
+        "propositions": [
+            {
+                "ct": "Un juif de France",
+                "nazi": 1
+            }, {
+                "ct": "Un Français juif ayant eu la nationalité allemande"
+            }, {
+                "ct": "Un Français alsacien juif qui n'a jamais accepté la nationalité allemande",
+                "solution": 1
+            }
+        ],
+        "message": "Les juifs de France sont en quasi totalité Français, dire juif avant Français les exclut de la communauté Française ce qui est antisémite. Quant à Dreyfus, lors de l'annexion de l'alsace par l'allemagne en 1871, il a fui avec ses parents vers Paris pour rester Français. "
+    }, {
+        "statement": "La nakba et l'exode des juifs venant de pays arabes et musulmans",
+        "propositions": [
+            {
+                "ct": "Les quantités de réfugiés sont à peu près équivalentes (700.000 personnes), et dans les deux histoires, les contextes de guerres civiles et des guerres d'indépendance font que les causes et les responsabilités sont des sujets débattus par les historiens",
+                "solution": 1
+            }, {
+                "ct": "La nakba est le fait de l'armée israelienne seule qui a rasé les villages palestiniens pendant la guerre israelo arabe de 1948",
+                "djihadiste": 1
+            }, {
+                "ct": "Aucun pays ayant accédé à l'indépendance n'a permis l'installation d'une agence juive dans sa capitale, on peut ainsi conclure que l'exode des juifs vers les pays occidentaux est dû seulement à des progroms"
+            }
+        ],
+        "message": "Le liban fur le seul pays dont la population juive a augmenté après guerre et Bourguiba en Tunisie essaya de calmer les tensions entre Tunisiens arabes et Tunisiens juifs. On peut néanmoins dire que la réislamisation des pays arabes après la décolonisation provoqua en très grand nombre l'exode des juifs. Quant à la nakba, elle fut pour beaucoup causée par des dissidents juifs extremistes, par les discours extremistes des dirigeants arabes, par les peurs et une crise de confiance générale, par la volonté de rester proches de sa famille ou de ses voisins déjà partis."
     }
 ]
