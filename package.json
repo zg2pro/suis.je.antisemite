@@ -4,7 +4,8 @@
   "description": "to test you and your disturbing opinions",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cordova:create": "cordova create suis.je.antisemite"
   },
   "repository": {
     "type": "git",
@@ -23,10 +24,12 @@
     "underscore": "^1.8.3"
   },
   "devDependencies": {
+    "cordova": "^7.0.1",
     "grunt": "^1.0.1",
     "grunt-contrib-clean": "^1.0.0",
     "grunt-contrib-concat": "^1.0.1",
     "grunt-contrib-copy": "^1.0.0",
-    "grunt-ftp-deploy": "^0.1.10"
+    "grunt-ftp-deploy": "^0.1.10",
+    "jxc": "^1.0.15"
   }
 }
