@@ -29,3 +29,10 @@ If you want to make you html/css/js app a mobile app run by Node.js:
  - npm install jxc -g (git must be in your path)
  - cordova create suis.je.antisemite and copy the folders (this being the name of the server/app you want to run on android)
 #http://blog.sergemazille.com/serveur-web-node-js-android/
+
+## continuous integration
+To sync the project between github and gitlab, import the project in gitlab, then:
+- option 1 is to switch git repo on your client, push all to gitlab, and go to settings>repository>"push to a remote repository"
+- option 2 is to continue working with github, and go to settings>repository>"pull from a remote repository" to mirror FROM github, 
+this will cause a time difference between pushes to github and sync in gitlab (several minutes each time)
+either way, you need to import your github_rsa.pub in your gitlab profile

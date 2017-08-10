@@ -1,0 +1,22 @@
+image: node:7.10
+before_script:
+  - npm install
+stages:
+  - build
+  - deploy
+job1:
+  stage: build
+  script:
+    - grunt build
+  only:
+    - master
+  tags:
+    - docker
+job2:
+  stage: deploy
+  script: 
+    - grunt serve
+  only:
+    - master
+  tags:
+    - docker
