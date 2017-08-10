@@ -1,6 +1,7 @@
 image: node:7.10
 before_script:
   - npm install
+  - npm install -g grunt-cli
 stages:
   - build
   - deploy
