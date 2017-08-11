@@ -35,7 +35,6 @@
     "jasmine": "^2.7.0",
     "jxc": "^1.0.15",
     "karma": "^1.7.0",
-    "karma-chrome-launcher": "^2.2.0",
-    "karma-junit-reporter": "^1.2.0"
+    "karma-chrome-launcher": "^2.2.0"
   }
 }

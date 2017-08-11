@@ -3,6 +3,7 @@ before_script:
   - npm i -g grunt-cli
 stages:
   - prepare
+  - test
   - deploy
 cache:
   paths:
@@ -14,6 +15,16 @@ install_dependencies:
   artifacts:
     paths:
       - node_modules/
+job_test:
+  stage: test
+  script: 
+    - grunt build
+    - grunt test
+  only:
+    - master
+  tags:
+    - docker
+    - karma
 job_auto_deploy:
   stage: deploy
   script: 
@@ -24,3 +35,4 @@ job_auto_deploy:
     - master
   tags:
     - docker
+    - ftp

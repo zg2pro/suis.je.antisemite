@@ -1,9 +1,9 @@
 describe('sja.js spec', function () {
-   
+
     var view, model;
-    
+
     beforeEach(function () {
-        view = new AppView();
+        view = new AppView;
     });
 
     describe('when view is constructing', function () {
@@ -11,5 +11,5 @@ describe('sja.js spec', function () {
             expect(view).toBeDefined();
         });
     });
-    
+
 });
