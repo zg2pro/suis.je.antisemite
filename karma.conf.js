@@ -13,12 +13,12 @@ module.exports = function (config) {
 
         // list of files / patterns to load in the browser
         files: [
-            "node_modules/jquery/dist/jquery.min.js",
-            "node_modules/bootstrap/dist/js/bootstrap.min.js",
-            "node_modules/underscore/underscore-min.js",
-            "node_modules/backbone/backbone-min.js",
-            'src/js/*.js',
-            'test/js/*.js'
+
+            {pattern: 'dist/data/*.json', watched: false, included: false, served: true},
+            {pattern: 'dist/parts/*.tpl', watched: false, included: false, served: true},
+
+            'dist/js/bundle.min.js',
+            'test/js/sja.spec.js'
         ],
 
         // list of files to exclude
@@ -35,6 +35,11 @@ module.exports = function (config) {
         // available reporters: https://npmjs.org/browse/keyword/karma-reporter
         reporters: ['progress'],
 
+        proxies: {
+            '/data/': '/base/dist/data/',
+            '/parts/': '/base/dist/parts/'
+        },
+
         // web server port
         port: 9876,
 
@@ -47,6 +52,12 @@ module.exports = function (config) {
 
         // enable / disable watching file and executing tests whenever any file changes
         autoWatch: false,
+
+        plugins: [
+            'karma-junit-reporter',
+            'karma-chrome-launcher',
+            'karma-jasmine'
+        ],
 
         // start these browsers
         // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher

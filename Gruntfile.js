@@ -86,6 +86,10 @@ module.exports = function (grunt) {
         'clean:tmp'
     ]);
 
+    grunt.registerTask('test', [
+        'karma'
+    ]);
+    
     grunt.registerTask('serve', [
         'ftp-deploy:build'
     ]);

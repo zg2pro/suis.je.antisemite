@@ -47,7 +47,7 @@ $(document).ready(function () {
             }
             var that = this;
             $.ajax({
-                url: templateFile + '?random=' + new Date().getMilliseconds(),
+                url: 'parts/' + templateFile + '?random=' + new Date().getMilliseconds(),
                 type: "GET",
                 dataType: "html",
                 success: function (data) {
