@@ -55,3 +55,6 @@ Then, add your development branch (can be master) to your settings>repository>pr
 to access secret variables in job executions
 You can declare secret variables in settings>pipelines
 Also declare your environments (staging, live) in the environments sections
+
+Last but not least you must declare your project as a public project if you want to be able to 
+declare gitlab badges in your github's README.md (in settings>general)
