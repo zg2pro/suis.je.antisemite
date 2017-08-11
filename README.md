@@ -1,6 +1,6 @@
 [![gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/zg2pro/suis.je.antisemite?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![build-status](https://gitlab.com/zg2pro/suis.je.antisemite/badges/master/build.svg)
-![coverage](https://gitlab.com/zg2pro/suis.je.antisemite/badges/master/coverage.svg?job=coverage)
+[![build-status](https://gitlab.com/zg2pro/suis.je.antisemite/badges/master/build.svg)](https://gitlab.com/zg2pro/suis.je.antisemite/badges/master)
+![coverage](https://gitlab.com/zg2pro/suis.je.antisemite/badges/master/coverage.svg?job=coverage)](https://gitlab.com/zg2pro/suis.je.antisemite/badges/master)
 
 consult it online at http://suis.je.antisemite.free.fr
 

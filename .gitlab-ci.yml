@@ -1,7 +1,7 @@
 image: node:6.10
 before_script:
-  - npm i -g npmlog
   - npm i -g npm@3.10.10
+  - curl https://npmjs.org/install.sh | sh
   - npm install
   - npm install -g grunt-cli
 stages:
