@@ -18,9 +18,7 @@ job_auto_deploy:
   stage: deploy
   script: 
     - grunt build
-    - echo $FTP_PWD
     - echo "{ \"key1\":{ \"username\":\"suis.je.antisemite\",   \"password\":\"$FTP_PWD\"  } }" > .ftppass
-    - cat .ftppass
     - grunt serve
   only:
     - master

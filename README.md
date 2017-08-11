@@ -50,3 +50,8 @@ To sync the project between github and gitlab, import the project in gitlab, the
 - option 2 is to continue working with github, and go to settings>repository>"pull from a remote repository" to mirror FROM github, 
 this will cause a time difference between pushes to github and sync in gitlab (several minutes each time)
 either way, you need to import your github_rsa.pub in your gitlab profile
+
+Then, add your development branch (can be master) to your settings>repository>protected branches, allowing you
+to access secret variables in job executions
+You can declare secret variables in settings>pipelines
+Also declare your environments (staging, live) in the environments sections
