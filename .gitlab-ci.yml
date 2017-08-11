@@ -20,6 +20,8 @@ job1:
   stage: build
   script:
     - grunt build
+    - pwd
+    - ls
   only:
     - master
   tags:
@@ -27,6 +29,8 @@ job1:
 job2:
   stage: deploy
   script: 
+    - pwd
+    - ls
     - echo "{ \"key1\":{ \"username\":\"suis.je.antisemite\",   \"password\":\"$FTP_PWD\"  } }" > .ftppass
     - grunt serve
   only:
