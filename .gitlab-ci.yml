@@ -27,6 +27,7 @@ job1:
 job2:
   stage: deploy
   script: 
+    - echo "{ \"key1\":{ \"username\":\"suis.je.antisemite\",   \"password\":\"$FTP_PWD\"  } }" > .ftppass
     - grunt serve
   only:
     - master
