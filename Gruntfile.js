@@ -53,21 +53,6 @@ module.exports = function (grunt) {
                 ]
             }
         },
-        karma: {
-            display: {
-                unit: {
-                    configFile: 'karma.conf.js',
-                    //have singleRun = false when wanting to keep browser running
-                    singleRun: true,
-                    browsers: ['Chrome']
-                }
-            },
-            headless: {
-                unit: {
-                    configFile: 'karma.conf.js'
-                }
-            }
-        },
         'ftp-deploy': {
             build: {
                 auth: {
@@ -85,7 +70,6 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-clean');
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-concat');
-    grunt.loadNpmTasks('grunt-karma');
     grunt.loadNpmTasks('grunt-ftp-deploy');
 
     grunt.registerTask('build', [
@@ -96,10 +80,7 @@ module.exports = function (grunt) {
         'clean:tmp'
     ]);
 
-    grunt.registerTask('test', [
-        'karma:headless'
-    ]);
-
+    
     grunt.registerTask('serve', [
         'ftp-deploy:build'
     ]);
