@@ -54,8 +54,18 @@ module.exports = function (grunt) {
             }
         },
         karma: {
-            unit: {
-                configFile: 'karma.conf.js'
+            display: {
+                unit: {
+                    configFile: 'karma.conf.js',
+                    singleRun: false,
+                    browsers: ['Chrome'],
+                    logLevel: 'DEBUG'
+                }
+            },
+            headless: {
+                unit: {
+                    configFile: 'karma.conf.js'
+                }
             }
         },
         'ftp-deploy': {
@@ -87,9 +97,9 @@ module.exports = function (grunt) {
     ]);
 
     grunt.registerTask('test', [
-        'karma'
+        'karma:headless'
     ]);
-    
+
     grunt.registerTask('serve', [
         'ftp-deploy:build'
     ]);
