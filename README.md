@@ -1,6 +1,16 @@
 [![build status](https://gitlab.com/zg2pro/suis.je.antisemite/badges/master/build.svg)](https://gitlab.com/zg2pro/suis.je.antisemite/commits/master)
-[![coverage report](https://gitlab.com/zg2pro/suis.je.antisemite/badges/master/coverage.svg)](https://gitlab.com/zg2pro/suis.je.antisemite/commits/master)
 [![gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/zg2pro/suis.je.antisemite?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
+[![Overall test coverage](https://gitlab.com/zg2pro/suis.je.antisemite/badges/master/coverage.svg)](https://gitlab.com/zg2pro/suis.je.antisemite/pipelines)
+[![Code Climate](https://codeclimate.com/github/gitlabhq/gitlabhq.svg)](https://codeclimate.com/github/gitlabhq/gitlabhq)
+[![Core Infrastructure Initiative Best Practices](https://bestpractices.coreinfrastructure.org/projects/42/badge)](https://bestpractices.coreinfrastructure.org/projects/42)
+
+## Test coverage
+
+- [![Ruby coverage](https://gitlab.com/zg2pro/suis.je.antisemite/badges/master/coverage.svg?job=coverage)](https://zg2pro.gitlab.io/suis.je.antisemite/coverage-ruby) Ruby
+- [![JavaScript coverage](https://gitlab.com/zg2pro/suis.je.antisemite/badges/master/coverage.svg?job=karma)](https://zg2pro.gitlab.io/suis.je.antisemite/coverage-javascript) JavaScript
+
+
 
 consult it online at http://suis.je.antisemite.free.fr
 

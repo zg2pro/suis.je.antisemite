@@ -23,8 +23,10 @@ div.footer {
     height:70px;
     width:100%;
     background:#999;
+    /*
     font-style: italic;
     font-weight: bold;
+    */
 }
 span.red {
     font-weight: bolder;
