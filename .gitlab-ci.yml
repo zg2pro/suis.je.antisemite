@@ -24,7 +24,6 @@ job_test:
     - master
   tags:
     - docker
-    - karma
 job_auto_deploy:
   stage: deploy
   script: 
@@ -35,4 +34,3 @@ job_auto_deploy:
     - master
   tags:
     - docker
-    - ftp
