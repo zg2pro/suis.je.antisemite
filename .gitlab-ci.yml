@@ -4,7 +4,6 @@ before_script:
   - npm i -g grunt-cli
 stages:
   - prepare
-  - build
   - deploy
 cache:
   paths:
@@ -16,21 +15,10 @@ install_dependencies:
   artifacts:
     paths:
       - node_modules/
-job1:
-  stage: build
-  script:
-    - grunt build
-    - pwd
-    - ls
-  only:
-    - master
-  tags:
-    - docker
-job2:
+job_auto_deploy:
   stage: deploy
   script: 
-    - pwd
-    - ls
+    - grunt build
     - echo "{ \"key1\":{ \"username\":\"suis.je.antisemite\",   \"password\":\"$FTP_PWD\"  } }" > .ftppass
     - grunt serve
   only:

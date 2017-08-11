@@ -1,6 +1,8 @@
-[![build](https://gitlab.com/zg2pro/suis.je.antisemite/badges/master/build.svg)](https://gitlab.com/zg2pro/suis.je.antisemite/commits/master)
+[![build status](https://gitlab.com/zg2pro/suis.je.antisemite/badges/master/build.svg)](https://gitlab.com/zg2pro/suis.je.antisemite/commits/master)
 
 [![coverage](https://gitlab.com/zg2pro/suis.je.antisemite/badges/master/coverage.svg)](https://gitlab.com/zg2pro/suis.je.antisemite/commits/master)
+
+<a href="https://gitlab.com/zg2pro/suis.je.antisemite/commits/master"><img alt="build status" src="https://gitlab.com/zg2pro/suis.je.antisemite/badges/master/build.svg" /></a>
 
 [![gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/zg2pro/suis.je.antisemite?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
