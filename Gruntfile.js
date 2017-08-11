@@ -57,9 +57,9 @@ module.exports = function (grunt) {
             display: {
                 unit: {
                     configFile: 'karma.conf.js',
-                    singleRun: false,
-                    browsers: ['Chrome'],
-                    logLevel: 'DEBUG'
+                    //have singleRun = false when wanting to keep browser running
+                    singleRun: true,
+                    browsers: ['Chrome']
                 }
             },
             headless: {
