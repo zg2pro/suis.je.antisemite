@@ -1,6 +1,5 @@
 image: node:6.10
 before_script:
-  #- npm i -g npm@3.10.10
   - npm i -g grunt-cli
 stages:
   - prepare
