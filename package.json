@@ -32,6 +32,7 @@
     "grunt-contrib-uglify": "^3.0.1",
     "grunt-ftp-deploy": "^0.1.10",
     "grunt-karma": "^2.0.0",
+    "jasmine": "^2.7.0",
     "jxc": "^1.0.15",
     "karma": "^1.7.0"
   }
