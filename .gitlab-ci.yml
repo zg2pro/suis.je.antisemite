@@ -34,13 +34,13 @@ job_test:
     - npm run test:headless
   artifacts:
     paths:
-      - public
+      - coverage/
   only:
     - master
   tags:
     - docker
 pages:
-  stage: deploy
+  stage: test
   dependencies:
     - job_test
   script:
