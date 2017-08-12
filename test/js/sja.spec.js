@@ -10,9 +10,9 @@ describe('sja.js spec', function () {
         it('should exist', function () {
             expect(view).toBeDefined();
         });
-        it('should be an accordion', function () {
-            expect(view.$el.find('div.accordion')).toExist();
-        });
+//        it('should be an accordion', function () {
+//            expect(view.$el.find('div.accordion')).toExist();
+//        });
     });
 
 });
