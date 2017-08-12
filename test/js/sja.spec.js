@@ -10,6 +10,7 @@ describe('sja.js spec', function () {
         it('should exist', function () {
             expect(view).toBeDefined();
         });
+        //TODO : check components present
     });
 
 });
