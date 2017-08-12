@@ -6,8 +6,7 @@
 
 ## Test coverage
 
-- [![Ruby coverage](https://gitlab.com/zg2pro/suis.je.antisemite/badges/master/coverage.svg?job=coverage)](https://zg2pro.gitlab.io/suis.je.antisemite/coverage-ruby) Ruby
-- [![JavaScript coverage](https://gitlab.com/zg2pro/suis.je.antisemite/badges/master/coverage.svg?job=karma)](https://zg2pro.gitlab.io/suis.je.antisemite/coverage-javascript) JavaScript
+- [![JavaScript coverage](https://gitlab.com/zg2pro/suis.je.antisemite/badges/master/coverage.svg?job=test)](https://zg2pro.gitlab.io/suis.je.antisemite/js) JavaScript
 
 
 
