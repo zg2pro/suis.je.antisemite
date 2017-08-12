@@ -1,6 +1,6 @@
 describe('sja.js spec', function () {
 
-    var view, model;
+    var view;
 
     beforeEach(function () {
         view = new AppView;
@@ -10,7 +10,9 @@ describe('sja.js spec', function () {
         it('should exist', function () {
             expect(view).toBeDefined();
         });
-        //TODO : check components present
+        it('should be an accordion', function () {
+            expect(view.$el.find('div.accordion')).toExist();
+        });
     });
 
 });

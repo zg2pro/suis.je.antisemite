@@ -21,6 +21,7 @@ var Antisemite = Backbone.Model.extend({
 var AllQuestions = new Questions().bind('reset', function () {
     AllQuestions.reset(AllQuestions.shuffle(), {silent: true});
     AllQuestions.reset(AllQuestions.first(20), {silent: true});
+    AllQuestions.get("view").render();
 });
 
 var AppView = Backbone.View.extend({
@@ -33,12 +34,9 @@ var AppView = Backbone.View.extend({
         "click a.reply": "replyQuestion",
         "click button.next": "nextQuestion"
     },
-    // At initialization we bind to the relevant events on the `Todos`
-    // collection, when items are added or changed. Kick things off by
-    // loading any preexisting todos that might be saved in *localStorage*.
     initialize: function () {
+        AllQuestions.set({view: this});
         AllQuestions.fetch({reset: true});
-        this.render();
     },
     applyTemplate: function (input, target, templateFile) {
         if (templateFile === undefined) {

@@ -19,6 +19,7 @@ job_test:
   stage: test
   script: 
     - grunt build
+    # TODO: all this could be put in a Dockerfile...
     - set -xe
     - wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add -
     - echo "deb http://dl.google.com/linux/chrome/deb/ stable main" > /etc/apt/sources.list.d/google.list
