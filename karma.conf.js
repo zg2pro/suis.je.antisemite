@@ -58,9 +58,16 @@ module.exports = function (config) {
             'karma-jasmine'
         ],
 
+        customLaunchers: {
+            Chrome_gitlab: {
+                base: 'ChromeHeadless',
+                flags: ['--no-sandbox']
+            }
+        },
+
         // start these browsers
         // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
-        browsers: ['ChromeHeadless'],
+        browsers: ['Chrome_gitlab'],
 
         // Continuous Integration mode
         // if true, Karma captures browsers, runs the tests and exits
