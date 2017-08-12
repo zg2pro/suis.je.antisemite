@@ -45,6 +45,7 @@ test:
 #    # run tests in virtual display mode
 #    - xvfb-run -a grunt test
     - npm run test:headless
+    - cat coverage/*/index.html | grep -B 1 Lines | grep strong
   artifacts:
     paths:
       - coverage/
