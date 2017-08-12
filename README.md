@@ -56,3 +56,11 @@ Also declare your environments (staging, live) in the environments sections
 
 Last but not least you must declare your project as a public project if you want to be able to 
 declare gitlab badges in your github's README.md (in settings>general)
+
+For test coverage, if you test with karma/jasmine you can include karma-coverage that will
+produce an html report.
+To produce the badge, cat coverage/*/index.html | grep -B 1 Statements | grep strong will display it
+in the job output, and then you must add a regex in pipelines so gitlab will be able to recognise it
+when it is there.
+Also, so that your badge redirects you to your test coverage, deploy your test coverage in gitlab 
+public pages.
