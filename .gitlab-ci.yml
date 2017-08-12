@@ -32,20 +32,14 @@ job_test:
 #    # run tests in virtual display mode
 #    - xvfb-run -a grunt test
     - npm run test:headless
-  only:
-    - master
-  tags:
-    - docker
-pages:
-  stage: test
-  script:
     - mv coverage/ public/
   artifacts:
     paths:
       - public
-    expire_in: 30 days
   only:
     - master
+  tags:
+    - docker
 job_auto_deploy:
   stage: deploy
   script: 
