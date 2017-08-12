@@ -1,7 +1,6 @@
 describe('sja.js spec', function () {
 
     var view;
-    var timerCallback;
 
     beforeEach(function () {
         var fixture = '<div id="sjaApp"></div>';
@@ -10,28 +9,33 @@ describe('sja.js spec', function () {
                 fixture
                 );
         view = new AppView;
-        timerCallback = jasmine.createSpy("timerCallback");
-        jasmine.clock().install();
     });
 
     describe('when view is constructing', function () {
         it('should exist', function () {
             expect(view).toBeDefined();
         });
-        it('should be an accordion', function () {
+    });
+
+    describe('when dom is ready', function () {
+        beforeEach(function (done) {
             setTimeout(function () {
-                timerCallback();
-            }, 10000);
-            expect(timerCallback).not.toHaveBeenCalled();
-            jasmine.clock().tick(20000);
-            expect(timerCallback).toHaveBeenCalled();
-            //    expect(view.$el.find('div.accordion')).toExist();
+                done();
+            }, 1000);
+        });
+        it('should be qustion and choices', function (done) {
+            //one question
+            expect(view.$el.find('h1.question')).toBeDefined();
+            //at least two possible answers
+            expect(view.$el.find('h4').length).toBeGreaterThan(1);
+            done();
         });
     });
 
+
+
     afterEach(function () {
         document.body.removeChild(document.getElementById('sjaApp'));
-        jasmine.clock().uninstall();
     });
 
 });
