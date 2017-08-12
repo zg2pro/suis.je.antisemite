@@ -3,6 +3,7 @@ before_script:
   - npm i -g grunt-cli
 stages:
   - prepare
+  - build
   - test
   - deploy
 cache:
@@ -15,10 +16,22 @@ install_dependencies:
   artifacts:
     paths:
       - node_modules/
-job_test:
-  stage: test
+build:
+  stage: build
   script: 
     - grunt build
+  artifacts:
+    paths:
+      - dist/
+  only:
+    - master
+  tags:
+    - docker
+test:
+  stage: test
+  dependencies:
+    - build
+  script: 
     # TODO: all this could be put in a Dockerfile...
     - set -xe
     - wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add -
@@ -40,9 +53,9 @@ job_test:
   tags:
     - docker
 pages:
-  stage: test
+  stage: deploy
   dependencies:
-    - job_test
+    - test
   script:
     - mv coverage/ public/
   artifacts:
@@ -50,10 +63,12 @@ pages:
       - public
   only:
     - master
-job_auto_deploy:
+deploy:
   stage: deploy
+  dependencies:
+    - build
+    - test
   script: 
-    - grunt build
     - echo "{ \"key1\":{ \"username\":\"suis.je.antisemite\",   \"password\":\"$FTP_PWD\"  } }" > .ftppass
     - grunt serve
   only:
