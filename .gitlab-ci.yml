@@ -32,7 +32,6 @@ job_test:
 #    # run tests in virtual display mode
 #    - xvfb-run -a grunt test
     - npm run test:headless
-    - mv coverage/ public/
   artifacts:
     paths:
       - public
@@ -40,6 +39,17 @@ job_test:
     - master
   tags:
     - docker
+pages:
+  stage: deploy
+  dependencies:
+    - job_test
+  script:
+    - mv coverage/ public/
+  artifacts:
+    paths:
+      - public
+  only:
+    - master
 job_auto_deploy:
   stage: deploy
   script: 
