@@ -19,6 +19,7 @@ job_test:
   stage: test
   script: 
     - grunt build
+    - $CHROME_BIN --product-version
     - npm run test:headless
 #    - set -xe
 #    - wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add -
