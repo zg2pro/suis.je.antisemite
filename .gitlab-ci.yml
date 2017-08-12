@@ -36,6 +36,16 @@ job_test:
     - master
   tags:
     - docker
+pages:
+  stage: test
+  script:
+    - mv coverage/ public/
+  artifacts:
+    paths:
+      - public
+    expire_in: 30 days
+  only:
+    - master
 job_auto_deploy:
   stage: deploy
   script: 

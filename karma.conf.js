@@ -25,15 +25,10 @@ module.exports = function (config) {
         exclude: [
         ],
 
-        // preprocess matching files before serving them to the browser
-        // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
-        preprocessors: {
-        },
-
         // test results reporter to use
         // possible values: 'dots', 'progress'
         // available reporters: https://npmjs.org/browse/keyword/karma-reporter
-        reporters: ['progress'],
+        reporters: ['progress', 'coverage'],
 
         proxies: {
             '/data/': '/base/dist/data/',
@@ -55,7 +50,8 @@ module.exports = function (config) {
 
         plugins: [
             'karma-chrome-launcher',
-            'karma-jasmine'
+            'karma-jasmine',
+            'karma-coverage'
         ],
 
         // start these browsers
@@ -68,6 +64,19 @@ module.exports = function (config) {
 
         // Concurrency level
         // how many browser should be started simultaneous
-        concurrency: Infinity
+        concurrency: Infinity,
+
+        preprocessors: {
+            // source files, that you wanna generate coverage for
+            // do not include tests or libraries
+            // (these files will be instrumented by Istanbul)
+            'src/**/*.js': ['coverage']
+        },
+
+        // optionally, configure the reporter
+        coverageReporter: {
+            type: 'html',
+            dir: 'coverage/'
+        }
     })
 }
