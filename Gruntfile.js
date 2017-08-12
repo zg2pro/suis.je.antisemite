@@ -34,7 +34,7 @@ module.exports = function (grunt) {
             }
         },
         concat: {
-            js: {
+            "js-ugly": {
                 dest: "dist/js/bundle.min.js",
                 src: [
                     "node_modules/jquery/dist/jquery.min.js",
@@ -42,6 +42,16 @@ module.exports = function (grunt) {
                     "node_modules/underscore/underscore-min.js",
                     "node_modules/backbone/backbone-min.js",
                     "dist/tmp/sja.min.js"
+                ],
+            },
+            "js-pretty": {
+                dest: "dist/js/bundle.min.js",
+                src: [
+                    "node_modules/jquery/dist/jquery.min.js",
+                    "node_modules/bootstrap/dist/js/bootstrap.min.js",
+                    "node_modules/underscore/underscore-min.js",
+                    "node_modules/backbone/backbone-min.js",
+                    "src/js/sja.js"
                 ],
             },
             css: {
@@ -76,11 +86,19 @@ module.exports = function (grunt) {
         'clean:all',
         'copy',
         'uglify',
-        'concat',
+        'concat:css',
+        'concat:js-ugly',
+        'clean:tmp'
+    ]);
+    grunt.registerTask('build:pretty', [
+        'clean:all',
+        'copy',
+        'concat:css',
+        'concat:js-pretty',
         'clean:tmp'
     ]);
 
-    
+
     grunt.registerTask('serve', [
         'ftp-deploy:build'
     ]);

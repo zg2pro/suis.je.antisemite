@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test:headless": "karma start karma.conf.js",
-    "test:display": "karma start karma.conf.js --browsers Chrome --singleRun true",
+    "test:display": "karma start karma.conf.js --browsers Chrome --single-run false",
     "cordova:create": "cordova create suis.je.antisemite"
   },
   "repository": {

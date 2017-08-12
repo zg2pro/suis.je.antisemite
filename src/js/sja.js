@@ -21,13 +21,13 @@ var Antisemite = Backbone.Model.extend({
 var AllQuestions = new Questions().bind('reset', function () {
     AllQuestions.reset(AllQuestions.shuffle(), {silent: true});
     AllQuestions.reset(AllQuestions.first(20), {silent: true});
-    AllQuestions.get("view").render();
+    AllQuestions.view.render();
 });
 
 var AppView = Backbone.View.extend({
     // Instead of generating a new element, bind to the existing skeleton of
     // the App already present in the HTML.
-    el: $("#sjaApp"),
+    el: "#sjaApp",
     cur: 0,
     // Delegated events for creating new items, and clearing completed ones.
     events: {
@@ -35,7 +35,7 @@ var AppView = Backbone.View.extend({
         "click button.next": "nextQuestion"
     },
     initialize: function () {
-        AllQuestions.set({view: this});
+        AllQuestions.view = this;
         AllQuestions.fetch({reset: true});
     },
     applyTemplate: function (input, target, templateFile) {
@@ -50,7 +50,7 @@ var AppView = Backbone.View.extend({
             success: function (data) {
                 var template = _.template(data, {});
                 if (target === undefined) {
-                    target = that.$el;
+                    target = $(that.$el);
                 }
                 target.html(template(input.toJSON()));
             }
@@ -89,6 +89,3 @@ var AppView = Backbone.View.extend({
     }
 });
 
-$(document).ready(function () {
-    var App = new AppView;
-});
