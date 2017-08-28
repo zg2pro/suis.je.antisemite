@@ -1,7 +1,13 @@
 component_depth: 6
 languages:
-- javascript
-
-exclude:
-- Gruntfile.js
-- karma.conf.js
+  - name: javascript
+    production:
+      include:
+        - /src
+      exclude:
+        - /Gruntfile.js
+        - /karma.conf.js
+        - /test/.*
+    test:
+      include:
+        - /test/.*
