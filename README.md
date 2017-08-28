@@ -1,7 +1,8 @@
 [![build status](https://gitlab.com/zg2pro/suis.je.antisemite/badges/master/build.svg)](https://gitlab.com/zg2pro/suis.je.antisemite/commits/master)
 
 [![Overall test coverage](https://gitlab.com/zg2pro/suis.je.antisemite/badges/master/coverage.svg)](https://gitlab.com/zg2pro/suis.je.antisemite/pipelines)
-[![Core Infrastructure Initiative Best Practices](https://bestpractices.coreinfrastructure.org/projects/42/badge)](https://bestpractices.coreinfrastructure.org/projects/42)
+[![BCH compliance](https://bettercodehub.com/edge/badge/zg2pro/suis.je.antisemite?branch=master)](https://bettercodehub.com/)
+
 
 ## Test coverage
 
