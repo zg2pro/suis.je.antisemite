@@ -71,7 +71,8 @@ module.exports = function (grunt) {
                     authKey: 'key1'
                 },
                 src: 'dist/',
-                dest: '/'
+                dest: '/',
+				forceVerbose: true
             }
         }
     });
