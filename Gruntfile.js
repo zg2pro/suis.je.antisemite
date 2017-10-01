@@ -62,18 +62,6 @@ module.exports = function (grunt) {
                     "src/css/sja.css"
                 ]
             }
-        },
-        'ftp-deploy': {
-            build: {
-                auth: {
-                    host: 'ftpperso.free.fr',
-                    port: 21,
-                    authKey: 'key1'
-                },
-                src: 'dist/',
-                dest: '/',
-				forceVerbose: true
-            }
         }
     });
 
@@ -99,11 +87,6 @@ module.exports = function (grunt) {
         'clean:tmp'
     ]);
 
-
-    grunt.registerTask('serve', [
-        'ftp-deploy:build'
-    ]);
-
-    grunt.registerTask('default', ['build', 'serve']);
+    grunt.registerTask('default', ['build']);
 
 };

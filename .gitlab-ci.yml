@@ -71,8 +71,8 @@ deploy:
     - build
     - test
   script: 
-    - echo "{ \"key1\":{ \"username\":\"suis.je.antisemite\",   \"password\":\"$FTP_PWD\"  } }" > .ftppass
-    - grunt serve
+    - apt-get install -yqq lftp
+    - lftp -e "mirror --no-perms --exclude-glob .git* --exclude .git/ -R dist/ /" -u suis.je.antisemite,$FTP_PWD ftpperso.free.fr
   only:
     - master
   tags:
