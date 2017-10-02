@@ -1,6 +1,11 @@
 image: node:6.10
 before_script:
   - npm i -g grunt-cli
+  - set -xe
+  - wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add -
+  - echo "deb http://dl.google.com/linux/chrome/deb/ stable main" > /etc/apt/sources.list.d/google.list
+  # Update packages
+  - apt-get update -yqqq
 stages:
   - prepare
   - build
@@ -32,12 +37,6 @@ test:
   dependencies:
     - build
   script: 
-    # TODO: all this could be put in a Dockerfile...
-    - set -xe
-    - wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add -
-    - echo "deb http://dl.google.com/linux/chrome/deb/ stable main" > /etc/apt/sources.list.d/google.list
-    # Update packages
-    - apt-get update -yqqq
     # Install Chrome browser
     - apt-get install -y google-chrome-stable
 #    # Install Virtual Display emulator
