@@ -316,5 +316,32 @@
             }
         ],
         "message": "Le liban fur le seul pays dont la population juive a augmenté après guerre et Bourguiba en Tunisie essaya de calmer les tensions entre Tunisiens arabes et Tunisiens juifs. On peut néanmoins dire que la réislamisation des pays arabes après la décolonisation provoqua en très grand nombre l'exode des juifs. Quant à la nakba, elle fut pour beaucoup causée par des dissidents juifs extremistes, par les discours extremistes des dirigeants arabes, par les peurs et une crise de confiance générale, par la volonté de rester proches de sa famille ou de ses voisins déjà partis."
+    }, {
+        "statement": "Les palestiniens paient des impôts à Israël",
+        "propositions": [
+            {
+                "ct": "Oui"
+            }, {
+                "ct": "Non, ils ne paient aucun impôt"
+            }, {
+                "ct": "Non ils paient des impôts aux autorités Palestiniennes de Cisjordanie et de Gaza",
+                "solution": 1
+            }
+        ],
+        "message": "Seul le camp de réfugiés de Shu'afat qui se trouve dans Jerusalem paie ses impôts à Israël. Les palestiniens paient cependant des frais énormes de douanes pour tous leurs produits importés ou exportés pour compenser les coûts des contrôles effectués par les autorités Israëliennes sur les points de contrôle. En Cisjordanie et à Gaza les services publics (police, justice, éducation, santé) sont autonomes et sont donc financés par les impôts perçus localement."
+    }, {
+        "statement": "Les camps de réfugiés Palestiniens existent depuis la première guerre Israelo-arabe au Liban, en Syrie, en Jordanie, en Cisjordanie et à Gaza",
+        "propositions": [
+            {
+                "ct": "Il existe un vide juridique et rien ne définit ce qui doit être fait pour ces 4,5 millions de personnes"
+            }, {
+                "ct": "Les lois internationales prévoient qu'ils puissent retourner vivre en Israël s'ils veulent vivre en paix avec leurs voisins et dans le cas contraire qu'ils soient absorbés dans les sociétés où ils sont arrivés. Seule la Jordanie a absorbé une partie des réfugiés en leur donnant nationalité. ",
+				"solution": 1
+            }, {
+                "ct": "Les lois internationales disent que les arabes peuvent exproprier les Israëliens qui vivent là où ces familles vivaient avant la nakba",
+				"djihadiste": 1
+            }
+        ],
+        "message": "2 millions de musulmans vivent déjà en Israël libres et égaux en droit. Le Liban et la Syrie refuse de naturaliser ces populations depuis toujours. Même en Cisjordanie, les réfugiés n'ont pas les mêmes droits que les Cisjordaniens. La loi qui régit cela est la résolution 194 de l'ONU."
     }
 ]
