@@ -23,7 +23,7 @@ describe('sja.js spec', function () {
                 done();
             }, 1000);
         });
-        it('should be qustion and choices', function (done) {
+        it('should be question and choices', function (done) {
             //one question
             expect(view.$el.find('h1.question')).toBeDefined();
             //at least two possible answers
