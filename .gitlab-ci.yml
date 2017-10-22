@@ -40,7 +40,7 @@ test:
     # Install Chrome browser
     - apt-get install -y google-chrome-stable
 #    # Install Virtual Display emulator
-    - apt-get install -y xvfb
+#    - apt-get install -y xvfb
 #    # run tests in virtual display mode
 #    - xvfb-run -a grunt test
     - npm run test:headless
