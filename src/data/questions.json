@@ -315,7 +315,7 @@
                 "ct": "Aucun pays ayant accédé à l'indépendance n'a permis l'installation d'une agence juive dans sa capitale, on peut ainsi conclure que l'exode des juifs vers les pays occidentaux est dû seulement à des progroms"
             }
         ],
-        "message": "Le liban fur le seul pays dont la population juive a augmenté après guerre et Bourguiba en Tunisie essaya de calmer les tensions entre Tunisiens arabes et Tunisiens juifs. On peut néanmoins dire que la réislamisation des pays arabes après la décolonisation provoqua en très grand nombre l'exode des juifs. Quant à la nakba, elle fut pour beaucoup causée par des dissidents juifs extremistes, par les discours extremistes des dirigeants arabes, par les peurs et une crise de confiance générale, par la volonté de rester proches de sa famille ou de ses voisins déjà partis."
+        "message": "Le liban fut le seul pays dont la population juive a augmenté après guerre et Bourguiba en Tunisie essaya de calmer les tensions entre Tunisiens arabes et Tunisiens juifs. On peut néanmoins dire que la réislamisation des pays arabes après la décolonisation provoqua en très grand nombre l'exode des juifs. Quant à la nakba, elle fut pour beaucoup causée par des dissidents juifs extremistes, par les peurs et une crise de confiance générale, par la volonté de rester proches de sa famille ou de ses voisins déjà partis, par les discours extremistes des dirigeants arabes, ces derniers ont appelé les palestiniens à vite fuir car ils allaient entrer en guerre et détruire Israël."
     }, {
         "statement": "Les palestiniens paient des impôts à Israël",
         "propositions": [
@@ -343,5 +343,35 @@
             }
         ],
         "message": "2 millions de musulmans vivent déjà en Israël libres et égaux en droit. Le Liban et la Syrie refusent de naturaliser ces populations depuis toujours. Même en Cisjordanie, les réfugiés n'ont pas les mêmes droits que les Cisjordaniens. La loi qui régit cela est la résolution 194 de l'ONU."
+    }, {
+        "statement": "En 1982 a eu lieu un attentat rue des rosiers qui fit 6 morts et 22 blessés",
+        "propositions": [
+            {
+                "ct": "Ce fut organisé par le mossad pour faire croire à des crimes antisémites",
+				"djihadiste": 1
+            }, {
+                "ct": "Des criminels communistes ont été condamnés"
+            }, {
+                "ct": "Des criminels arabes ont été condamnés"
+            }, {
+                "ct": "Des criminels néo-nazis ont été condamnés"
+            }, {
+                "ct": "Le crime n'a jamais été résolu, la justice n'a jamais condamné personne pour ces faits, les victimes attendent toujours",
+				"solution": 1
+            }
+        ],
+        "message": "L’impact des balles a été visible sur la vitrine jusqu'en 2010, quand le restaurant est remplacé par un magasin de vêtements. La plaque commémorant l'attentat ayant disparu, une nouvelle plaque a été posée par la mairie de Paris en 2011."
+    }, {
+        "statement": "Le gang des barbares, auteur de la torture et du meurtre du jeune Ilan Halimi en 2006",
+        "propositions": [
+            {
+                "ct": "se partageait des documents du comité de bienfaisance et de soutien aux palestiniens, citait aussi le coran au téléphone lors des demandes de rançon",
+				"solution": 1
+            }, {
+                "ct": "a kidnappé Ilan contre une rançon, tout ceci fut donc à de seules fins pécunières",
+				"djihadiste": 1
+            }
+        ],
+        "message": "En conclusion de l'enquête la police a osé signaler que les membres du groupe ne sont pas connus comme extrémistes. Cependant, les juges chargés du dossier ont toutefois retenu l'antisémitisme comme circonstance aggravante du crime."
     }
 ]
