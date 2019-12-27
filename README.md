@@ -68,3 +68,11 @@ in the job output, and then you must add a regex in pipelines so gitlab will be 
 when it is there.
 Also, so that your badge redirects you to your test coverage, deploy your test coverage in gitlab 
 public pages.
+
+# a few notes about gitpod.ignore
+
+This is awesome !!!
+Open the workspace with gitpod.io#https://github.com/zg2pro/suis.je.antisemite.git or you maybe already have a gitpod button in your github project
+the terminal is a linux emulator, AND it memorizes all your history and setup, for this project for instance:
+I did a "npm install -g grunt-cli", I added the grunt-serve to my dev dependencies and when I ran grunt serve it worked immediately, 
+I could see the result on a webpage ! It can of course work with live-reload vue or angular cli serve commands !
