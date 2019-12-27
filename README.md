@@ -69,7 +69,7 @@ when it is there.
 Also, so that your badge redirects you to your test coverage, deploy your test coverage in gitlab 
 public pages.
 
-# a few notes about gitpod.ignore
+# a few notes about gitpod.io
 
 This is awesome !!!
 Open the workspace with gitpod.io#https://github.com/zg2pro/suis.je.antisemite.git or you maybe already have a gitpod button in your github project
