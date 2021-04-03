@@ -6,6 +6,8 @@ install:
 script:
 - npm i -g grunt-cli
 - grunt build
+after_success:
+- npm run test:headless
 deploy:
   provider: pages
   skip_cleanup: true
