@@ -6,6 +6,16 @@ install:
 script:
 - npm i -g grunt-cli
 - grunt build
+after_success:
+- npm run test:headless
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $TRAVIS_SECRET_KEY  
+  target_branch: gh-pages
+  local_dir: dist/
+  on:
+    branch: master
 branches:
   only:
   - gh-pages
