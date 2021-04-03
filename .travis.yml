@@ -1,0 +1,16 @@
+language: node_js
+node_js:
+- 8
+install:
+- npm install
+script:
+- npm i -g grunt-cli
+- grunt build
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $SECRET_KEY  
+  target_branch: gh-pages
+  local_dir: dist/
+  on:
+    branch: try-gh-pages-deploy
