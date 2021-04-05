@@ -1,0 +1,477 @@
+[
+    {
+        "statement": "Dans la rue des rosiers vivent depuis 1945 les juifs ashkénazes qui sont revenus après la guerre ?",
+        "propositions": [
+            {
+                "ct": "Oui, le quartier du marais était juif depuis le moyen-âge, ainsi les rescapés sont rentrés chez eux dans ce quartier après la guerre",
+                "nazi": 1
+            },
+            {
+                "ct": "Non, les juifs ont été exterminés par les allemands et leurs collaborateurs",
+                "solution": 1
+            }
+        ],
+        "message": "plus de 13000 personnes ont été arrêtées le 16 juillet 1942 par la police de Paris. Les logements vides ont été récupérés par d'autres familles françaises."
+    },
+    {
+        "statement": "Est-il possible pour un Cisjordanien de creuser un puits sur ses terres ?",
+        "propositions": [
+            {
+                "ct": "Non, les autorités Israëliennes l'empêchent",
+                "djihadiste": 1
+            },
+            {
+                "ct": "Non, les autorités Palestiniennes l'empêchent",
+                "djihadiste": 1
+            },
+            {
+                "ct": "Oui",
+                "solution": 1
+            }
+        ],
+        "message": "Aucun contrôle n'est fait en Cisjordanie par l'état d'Israël en dehors des 2 autoroutes principales et des installations juives (accords Oslo 2), et en dehors du cadre d'opérations spéciales"
+    },
+    {
+        "statement": "L'état d'Israël se fonde sur la religion juive ?",
+        "propositions": [
+            {
+                "ct": "Oui, l'état et le rabbinat de Jerusalem administrent ensemble l'état",
+                "djihadiste": 1
+            },
+            {
+                "ct": "Oui, l'état et le rabbinat sont séparés mais des lois du pays sont adaptées de la loi juive",
+                "djihadiste": 1
+            },
+            {
+                "ct": "Non, Israël est un pays sans constitution, mais les lois permettent à tous les citoyens de jouir de droits égaux quelle que soit leur religion. Faire référence à la loi juive est un usage de l'extrême droite Israëlienne seule.",
+                "solution": 1
+            },
+            {
+                "ct": "Non, Israël est totalement laïque"
+            }
+        ],
+        "message": "En Israël les religieux n'ont par exemple jamais pu légaliser le marriage, les débats politiques excluent toujours ce qui relève purement des traditions."
+    },
+    {
+        "statement": "Les écoles juives en France sont financées par l'état",
+        "propositions": [
+            {
+                "ct": "Non, en vertu du principe de laïcité"
+            },
+            {
+                "ct": "Oui, l'état finance l'enseignement de tous les enfants de la république et laisse aux parents la liberté de choisir un lieu de scolarité privé",
+                "solution": 1
+            },
+            {
+                "ct": "Oui, en compensation des déportations d'enfants juifs et des autres crimes de guerres commis par l'état Français de Vichy",
+                "nazi": 1
+            }
+        ],
+        "message": "C'est un principe d'application de la loi 1905"
+    },
+    {
+        "statement": "Combien de grandes banques juives existe-t-il dans le monde ?",
+        "propositions": [
+            {
+                "ct": "0",
+                "solution": 1
+            },
+            {
+                "ct": "1",
+                "nazi": 1
+            },
+            {
+                "ct": "2",
+                "nazi": 1
+            },
+            {
+                "ct": "plus de 2",
+                "nazi": 1
+            }
+        ],
+        "message": "Qu'est-ce qu'une banque juive ? Une banque dont les directeurs seraient juifs ? Ainsi toute assemblée dont la majorité d'entre serait juifs serait une assemblée juive ? Ainsi tout juif ne se définit que par sa judéité ?"
+    },
+    {
+        "statement": "Comment est-on juif ?",
+        "propositions": [
+            {
+                "ct": "On est juif lorsque sa mère est juive",
+                "nazi": 1
+            },
+            {
+                "ct": "On est juif lorsqu'un de ses ancêtres est juif",
+                "nazi": 1
+            },
+            {
+                "ct": "On est juif lorsqu'on pratique le judaïsme",
+                "nazi": 1
+            },
+            {
+                "ct": "On est juif parce que quelqu'un dit que vous l'êtes",
+                "solution": 1
+            },
+            {
+                "ct": "On est juif lorsqu'on est circoncis et qu'on observe le shabbat",
+                "nazi": 1
+            },
+            {
+                "ct": "On est juif lorsqu'un rabbin vous convertit ou vous circoncit",
+                "nazi": 1
+            }
+        ],
+        "message": "Vous êtes antisémite si vous pensez pouvoir reconnaitre un juif car il existe autant de définitions d'être juif qu'il existe d'antisémites. La taille du nez, le fait d'avoir de l'argent, ou de descendre d'un juif, sont autant de critères que certains considèrent suffisants, mais nulle n'a le sang si pur qu'il soit totalement juif ou pas du tout."
+    },
+    {
+        "statement": "La première guerre Israëlo-arabe de 1948 a été déclenchée par ... ?",
+        "propositions": [
+            {
+                "ct": "Les sionistes qui n'ont pas accepté le plan de partage de l'ONU pour la Palestine",
+                "djihadiste": 1
+            },
+            {
+                "ct": "Les palestiniens qui n'ont pas accepté le plan de partage de l'ONU"
+            },
+            {
+                "ct": "Les Jordaniens, qui ne comprenaient pas l'existance d'un état Palestinien, ce territoire étant une province de la Transjordanie durant la période administrée par le roi de Jordanie sous mandats turques puis britanniques",
+                "solution": 1
+            }
+        ],
+        "message": "En effet, Les Jordaniens sont entrés en guerre contre juifs et palestiniens, ils souhaitaient même au départ s'unir avec les sionistes  (si les sionistes avaient accepté) contre les palestiniens quite à conserver dans une Transjordanie réunifiée un province autonome pour les juifs. Ils ont réussi à occuper une partie du territoire jusqu'en 1967 mais n'ont jamais naturalisé Jordanien les palestiniens."
+    },
+    {
+        "statement": "Israël utilise la bible pour justifier la colonisation de certains territoires",
+        "propositions": [
+            {
+                "ct": "Non, il s'agit d'une guerre économique",
+                "djihadiste": 1
+            },
+            {
+                "ct": "Non, l'état ne soutient pas les installations juives à l'est de la ligne verte, mais n'a pas encore trouvé de solution logistique pour évacuer définitivement",
+                "solution": 1
+            },
+            {
+                "ct": "Oui, il s'agit d'une guerre idéologique, d'ailleurs la plupart des Israëliens sont partisans du grand Israël",
+                "djihadiste": 1
+            },
+            {
+                "ct": "Les partis politiques ne se mettent pas d'accord à ce sujet, résultat la promotion de nouvelles installations n'est pas stoppée et de plus en plus de personnes mêmes laïques s'installent à l'est de la ligne verte pour économiser sur le foncier",
+                "djihadiste": 1
+            }
+        ],
+        "message": "Kadima, l'union sioniste et le Likoud (les 3 grands partis d'Israel) sont au moins d'accord sur le fait que la bible n'a aucun intérêt dans la pacification de la zone. D'ailleurs la bible dit aussi que les juifs sont un peuple sans terre condamnés à l'errance. Toutefois les modalités d'évacuation de 600.000 personnes dont 100.000 orthodoxes combatifs sont devenues un tel casse-tête pour le gouvernement que la création de l'état Palestinien à laquelle (presque) tout le monde aspire est retardée en permanence. Le contrôle des autorités palestiniennes dans les zones A et B des accords d'Oslo 2 sont laxistes, ce qui encourage la conservation de postes militaires en Cisjordanie. Enfin, il est vrai que le Likoud pactise avec l'extrême droite Israëlienne pour gouverner et durant ces périodes la colonisation accélère encore plus."
+    },
+    {
+        "statement": "Le déicide est le crime commis par les juifs contre Jésus, l'église catholique fit de la punition des juifs une priorité",
+        "propositions": [
+            {
+                "ct": "Au temps de Saint-Cyrille",
+                "nazi": 1
+            },
+            {
+                "ct": "Au moyen-âge, pendant les croisades",
+                "nazi": 1
+            },
+            {
+                "ct": "Pendant la seconde guerre mondiale sous la pression des fascistes",
+                "nazi": 1
+            },
+            {
+                "ct": "Durant toute son histoire jusqu'à la fin de la seconde guerre mondiale, date à laquelle l'église a ouvert les yeux sur l'antisémitisme et renoncé à poursuivre les juifs"
+            },
+            {
+                "ct": "Durant toute son histoire jusqu'en 1965 pour la deuxième convention du Vatican",
+                "solution": 1
+            }
+        ],
+        "message": "Et ce n'est que Jean-Paul II en 1995 qui dit pour la première fois que les juifs ne sont pas responsables de la mort de Jésus. La persécution des juifs fait partie d'une histoire du monde qui est multiséculaire et pas seulement pour la période de la seconde guerre mondiale. Avant Hitler, il y eut Isabelle la Catholique, les romains, les pharaons, les pogroms de Russie, Banu Qurayza. Ne pas l'admettre est du révisionnisme."
+    },
+    {
+        "statement": "Dieudonné n'a pas été condamné pour",
+        "propositions": [
+            {
+                "ct": "Avoir fait un chèque de 1500€ au Djihad Islamique Palestinien, organisation reconnue terroriste par l'état Français",
+                "solution": 1
+            },
+            {
+                "ct": "Avoir déclaré qu'Arthur finançait l'armée Israëlienne. Et Arthur ne l'a pas immédiatement accusé de diffamation et fait condamné, C'est faux.",
+                "djihadiste": 1
+            },
+            {
+                "ct": "Avoir contesté des crimes contre l'humanité",
+                "nazi": 1
+            },
+            {
+                "ct": "Avoir déclaré que Patrick Bruel faisait partie de l'armée Israëlienne et qu'il soutenait le bombardement du Sud-Liban. Et Patrick Bruel ne l'a pas accusé et fait condamné pour diffamation. C'est faux.",
+                "djihadiste": 1
+            },
+            {
+                "ct": "Avoir accusé les juifs d'êtres des négriers et des trafficants d'escalves. Non il n'a pas dit cela.",
+                "nazi": 1
+            }
+        ],
+        "message": "Si, Dieudonné a fait cela. Bien sûr ces déclarations sont celles d'un humoriste... quel humour !! Ca vous a vraiment fait rire qu'il l'ait dit ? Vous faites aussi des blagues de ce genre ?"
+    },
+    {
+        "statement": "Les attentats du 11 Septembre 2001",
+        "propositions": [
+            {
+                "ct": "sont justifiés pour lutter contre un monde trop consumériste, on ne fait pas d'omelette sans casser des oeufs",
+                "djihadiste": 1
+            },
+            {
+                "ct": "une atrocité",
+                "solution": 1
+            }
+        ],
+        "message": "Après sa mort Ben Laden reste une idôle pour de nombreux jeunes qui manquent de courants de révolte nobles et se réfugient dans le salafisme."
+    },
+    {
+        "statement": "La Judée",
+        "propositions": [
+            {
+                "ct": "(éthymologiquement pays des juifs) est une région d'Israël et de Palestine, et était dénommée ainsi aussi du temps des turcs",
+                "solution": 1
+            },
+            {
+                "ct": "ne signifie pas pays des juifs, mais nouvelle terre et il n'y avait quasiment pas de juifs vivant en Israël avant l'exode des réfugiés de la shoah",
+                "djihadiste": 1
+            },
+            {
+                "ct": "signifie bien pays des juifs mais il n'y avait pas de juifs vivant en Israël avant la déclaration de Balfour en 1917",
+                "djihadiste": 1
+            }
+        ],
+        "message": "Les antisionistes justifient la cause Palestinienne du fait que les juifs seraient arrivés après les arabes en Palestine. Mais au XIXe siècle l'ouest du Jourdain selon les turcs était déjà peuplé d'un quart de juifs, il existe de très anciens quartiers juifs, y compris à l'intérieur de Jerusalem-est (vieille ville). D'ailleurs, les juifs n'étaient-ils pas les premiers au Maroc ? en Algérie ? en Tunisie ? en Arabie Saoudite ?"
+    },
+    {
+        "statement": "D'après vous ?",
+        "propositions": [
+            {
+                "ct": "Plus d'arabes vivent dans les pays juifs",
+                "solution": 1
+            },
+            {
+                "ct": "Plus de juifs vivent dans les pays arabes",
+                "djihadiste": 1
+            }
+        ],
+        "message": "A peu près 30% des Israëliens sont arabes, beaucoup viennent des territoires Palestiniens y vivre pour y étudier ou travailler. Pourquoi est-il si impensable qu'un juif puisse vivre coté Palestinien ?"
+    },
+    {
+        "statement": "Pourquoi n'y a-t-il plus de juifs au Maroc, en Algérie, et en Tunisie ?",
+        "propositions": [
+            {
+                "ct": "Les juifs en Algérie se sont globalement engagés aux cotés de la France alors qu'ils n'avaient pas la nationalité, en 1967 ils ont été mis dehors"
+            },
+            {
+                "ct": "Un beau jour ils sont partis, d'un coup, personne n'a compris pourquoi",
+                "djihadiste": 1
+            },
+            {
+                "ct": "Après avoir parfois participé à la décolonisation, un sursaut identitaire a islamisé les consciences dans ces pays. Les relations étaient devenues très tendues et quand en 1967 Nasser déclare que son objectif est la destruction d'Israël et déclenche la guerre des 6 jours, le monde arabe se déchaine sur les juifs, ils doivent fuir vers la France, Israël ou les Etats-Unis",
+                "solution": 1
+            }
+        ],
+        "message": "Les juifs étaient plutôt engagés pour la décolonisation car ils se sentaient appartenir davantage au pays dans lequel ils vivaient qu'à la France ou à Israël, ils sont partis sous la menace comme tous les immigrés du monde."
+    },
+    {
+        "statement": "La religion juive est la plus arriérée des religions monothéistes",
+        "propositions": [
+            {
+                "ct": "Oui, c'est la plus ancienne et les rites n'ont pas changé depuis Moïse",
+                "nazi": 1
+            },
+            {
+                "ct": "C'est une des plus anciennes et les rites n'ont pas changé depuis Hérode",
+                "nazi": 1
+            },
+            {
+                "ct": "C'est la plus ancienne religion, les rites ashkénazes ou séfarades datent du Moyen-âge, l'état ne s'en mêle pas : laïcité oblige"
+            },
+            {
+                "ct": "Judaïsme et protestantisme sont les deux seules religions en France régies par un consistoire républicain",
+                "solution": 1
+            }
+        ],
+        "message": "C'est la religion la plus ancienne, mais certainement aussi celle qui évolue le plus, et qui a le plus connu de révolutions (voir ce qu'est la haskalah). Le consistoire permet à l'état de s'assurer qu'aucune dérive n'existe dans la communauté religieuse. La majorité des juifs de France et des Etats-Unis n'observent pas la Cacheroute, l'abolition de cette règle en France date du consistoire de Napoléon."
+    },
+    {
+        "statement": "Pendant la seconde guerre mondiale en Transjordanie",
+        "propositions": [
+            {
+                "ct": "Le mufti de Jerusalem avait conclu un pacte avec Hitler pour exterminer les juifs de Palestine. Il a été invité à visiter Auschwitz. Ainsi un contingent d'arabes Palestiniens fut envoyé sur le front russe au coté des allemands.",
+                "solution": 1
+            },
+            {
+                "ct": "Juifs et arabes n'ont pas pris parti dans un camp ou dans l'autre, les nazis n'ayant pas menacé la région",
+                "nazi": 1
+            },
+            {
+                "ct": "Juifs, arabes et britanniques se sont unis contre l'armée nazie de Rommel, remettant la guerre civile judéo-arabe de Palestine à plus tard",
+                "nazi": 1
+            },
+            {
+                "ct": "Liban et Syrie étant sous protectorat Français donc sous régime Vichyste, la Haganah a déclaré la guerre à la France, les arabes sont restés neutres."
+            }
+        ],
+        "message": "Un accord identique a permis à Hitler de recevoir l'aide des bosniaques musulmans et ainsi exterminer les juifs romanites en Yougoslavie. La shoah dans les balkans est la plus réussie des nazis : les juifs romanites ont été totalement exterminés. "
+    },
+    {
+        "statement": "L'état Français a reconnu que le régime de Vichy avait participé aux crimes antisémites de la guerre",
+        "propositions": [
+            {
+                "ct": "Pendant la guerre, la France libre exprimait son souhait de mettre un terme à ces crimes",
+                "nazi": 1
+            },
+            {
+                "ct": "A la fin de la guerre, les procès des collaborateurs ont mis en lumière les politiques antisémites de Vichy",
+                "nazi": 1
+            },
+            {
+                "ct": "En 1994, lorsque les journaux Français révèlent la longue amitié de René Bousquet commanditaire de la rafle du Vel d'Hiv et de François Mitterrand, celui-ci se justifie et reconnait les crimes de Bousquet qui venait de décéder en 1993",
+                "nazi": 1
+            },
+            {
+                "ct": "Jacques Chirac est le premier à reconnaitre en 1997 que la France avait commis l'irréparable pendant la guerre.",
+                "solution": 1
+            }
+        ],
+        "message": "Ce fut à l'occasion de la commémoration de la rafle du Vel d'Hiv le 17 juillet 1997, auparavant la France ne parlait de Vichy que comme collaborateur dans les combats contre les alliés. Pétain, Laval a été condamnés pour intelligence avec l'ennemi. Il fallut attendre le procès Touvier en 1994 pour que l'on parle de crimes antisémites pour la première fois dans un tribunal Français."
+    },
+    {
+        "statement": "Peut-on parler d'humour juif ?",
+        "propositions": [
+            {
+                "ct": "Non c'est raciste d'associer les juifs à ce stéréotype sur l'humour"
+            },
+            {
+                "ct": "Oui, une culture juive existe bien sûr avec sa cuisine, ses langues, son histoire, et aussi son humour bien sûr réputé, incarné par Groucho Marx,  Woody Allen, Jerry Seinfeld, aussi par Popeck, d'Elie Kakou ou d'Elie Semoun",
+                "solution": 1
+            }
+        ],
+        "message": "Le juif est indiscernable dans la société tant qu'il n'y a pas de caractéristique absolue qui permette de le démasquer, comme la taille du nez ou du front. Les caractériques culturelles elles ne sont pas absolues, on ne s'y associé pas entièrement, une culture juive existe et aussi une culture Israëlienne. "
+    },
+    {
+        "statement": "Alfred Dreyfus était ?",
+        "propositions": [
+            {
+                "ct": "Un juif de France",
+                "nazi": 1
+            },
+            {
+                "ct": "Un Français juif ayant eu la nationalité allemande"
+            },
+            {
+                "ct": "Un Français alsacien juif qui n'a jamais accepté la nationalité allemande",
+                "solution": 1
+            }
+        ],
+        "message": "Les juifs de France sont en quasi totalité Français, dire juif avant Français les exclut de la communauté Française ce qui est antisémite. Quant à Dreyfus, lors de l'annexion de l'alsace par l'allemagne en 1871, il a fui avec ses parents vers Paris pour rester Français. "
+    },
+    {
+        "statement": "La nakba et l'exode des juifs venant de pays arabes et musulmans",
+        "propositions": [
+            {
+                "ct": "Les quantités de réfugiés sont à peu près équivalentes (700.000 personnes), et dans les deux histoires, les contextes de guerres civiles et des guerres d'indépendance font que les causes et les responsabilités sont des sujets débattus par les historiens",
+                "solution": 1
+            },
+            {
+                "ct": "La nakba est le fait de l'armée israelienne seule qui a rasé les villages palestiniens pendant la guerre israelo arabe de 1948",
+                "djihadiste": 1
+            },
+            {
+                "ct": "Aucun pays ayant accédé à l'indépendance n'a permis l'installation d'une agence juive dans sa capitale, on peut ainsi conclure que l'exode des juifs vers les pays occidentaux est dû seulement à des progroms"
+            }
+        ],
+        "message": "Le liban fut le seul pays dont la population juive a augmenté après guerre et Bourguiba en Tunisie essaya de calmer les tensions entre Tunisiens arabes et Tunisiens juifs. On peut néanmoins dire que la réislamisation des pays arabes après la décolonisation provoqua en très grand nombre l'exode des juifs. Quant à la nakba, elle fut pour beaucoup causée par des dissidents juifs extremistes, par les peurs et une crise de confiance générale, par la volonté de rester proches de sa famille ou de ses voisins déjà partis, par les discours extremistes des dirigeants arabes, ces derniers ont appelé les palestiniens à vite fuir car ils allaient entrer en guerre et détruire Israël."
+    },
+    {
+        "statement": "Les palestiniens paient des impôts à Israël",
+        "propositions": [
+            {
+                "ct": "Oui"
+            },
+            {
+                "ct": "Non, ils ne paient aucun impôt"
+            },
+            {
+                "ct": "Non ils paient des impôts aux autorités Palestiniennes de Cisjordanie et de Gaza",
+                "solution": 1
+            }
+        ],
+        "message": "Seul le camp de réfugiés de Shu'afat qui se trouve dans Jerusalem paie ses impôts à Israël. Les palestiniens paient cependant des frais énormes de douanes pour tous leurs produits importés ou exportés pour compenser les coûts des contrôles effectués par les autorités Israëliennes sur les points de contrôle. En Cisjordanie et à Gaza les services publics (police, justice, éducation, santé) sont autonomes et sont donc financés par les impôts perçus localement."
+    },
+    {
+        "statement": "Les camps de réfugiés Palestiniens existent depuis la première guerre Israelo-arabe au Liban, en Syrie, en Jordanie, en Cisjordanie et à Gaza",
+        "propositions": [
+            {
+                "ct": "Il existe un vide juridique et rien ne définit ce qui doit être fait pour ces 4,5 millions de personnes"
+            },
+            {
+                "ct": "Les lois internationales prévoient qu'ils puissent retourner vivre en Israël s'ils veulent vivre en paix avec leurs voisins et dans le cas contraire qu'ils soient absorbés dans les sociétés où ils sont arrivés. Seule la Jordanie a absorbé une partie des réfugiés en leur donnant nationalité. ",
+                "solution": 1
+            },
+            {
+                "ct": "Les lois internationales disent que les arabes peuvent exproprier les Israëliens qui vivent là où ces familles vivaient avant la nakba",
+                "djihadiste": 1
+            }
+        ],
+        "message": "2 millions de musulmans vivent déjà en Israël libres et égaux en droit. Le Liban et la Syrie refusent de naturaliser ces populations depuis toujours. Même en Cisjordanie, les réfugiés n'ont pas les mêmes droits que les Cisjordaniens. La loi qui régit cela est la résolution 194 de l'ONU."
+    },
+    {
+        "statement": "En 1982 a eu lieu un attentat rue des rosiers qui fit 6 morts et 22 blessés",
+        "propositions": [
+            {
+                "ct": "Ce fut organisé par le mossad pour faire croire à des crimes antisémites",
+                "djihadiste": 1
+            },
+            {
+                "ct": "Des criminels communistes ont été condamnés"
+            },
+            {
+                "ct": "Des criminels arabes ont été condamnés"
+            },
+            {
+                "ct": "Des criminels néo-nazis ont été condamnés"
+            },
+            {
+                "ct": "Le crime n'a jamais été résolu, la justice n'a jamais condamné personne pour ces faits, les victimes attendent toujours",
+                "solution": 1
+            }
+        ],
+        "message": "L’impact des balles a été visible sur la vitrine jusqu'en 2010, quand le restaurant est remplacé par un magasin de vêtements. La plaque commémorant l'attentat ayant disparu, une nouvelle plaque a été posée par la mairie de Paris en 2011."
+    },
+    {
+        "statement": "Le gang des barbares, auteur de la torture et du meurtre du jeune Ilan Halimi en 2006",
+        "propositions": [
+            {
+                "ct": "se partageait des documents du comité de bienfaisance et de soutien aux palestiniens, citait aussi le coran au téléphone lors des demandes de rançon",
+                "solution": 1
+            },
+            {
+                "ct": "a kidnappé Ilan contre une rançon, tout ceci fut donc à de seules fins pécunières",
+                "djihadiste": 1
+            }
+        ],
+        "message": "En conclusion de l'enquête la police a osé signaler que les membres du groupe ne sont pas connus comme extrémistes. Cependant, les juges chargés du dossier ont toutefois retenu l'antisémitisme comme circonstance aggravante du crime."
+    },
+    {
+        "statement": "August Hirt réalisait des expériences sur des juifs pendant la seconde guerre mondiale à la faculté de médecine de Strasbourg. Des témoignages rapportent que des restes de victimes sont toujours entreposés dans l'enceinte de l'université. Malgré ces témoignages, plusieurs enquêtes, dont le livre de Michel Cymes en 2015, les bocaux de restes humains non exhumés sont restés introuvables.",
+        "propositions": [
+            {
+                "ct": "normal il n'y avait aucun reste humain, c'était une rumeur propagée par la communauté juive en France",
+                "nazi": 1
+            },
+            {
+                "ct": "Les professeurs de la faculté ont menti durant 72 ans jusqu'à ce qu'en 2017 ces bocaux portant le nom d'Auguste Hirt aient été retrouvés mystérieusement.",
+                "solution": 1
+            },
+            {
+                "ct": "Les restes humains avaient en fait déjà été retrouvés, et exhumés par leur famille, mais le temps et l'émigration des familles vers Israël a fait oublier l'histoire et a accusé inutilement la faculté de médecine.",
+                "nazi": 1,
+                "djihadiste": 1
+            }
+        ],
+        "message": "Je vous conseille vivement ce très bon livre de Michel Cymes racontant les tortures des médecins des camps de la mort."
+    }
+]
